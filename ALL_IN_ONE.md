@@ -73,6 +73,7 @@ If you have : Not enough '\' characters in service
 Then verify that you have at least 2 backslash with just the IP address and 4 with the share.
 ```
 ## Password hash identification
+```
 git clone https://github.com/SmeegeSec/HashTag.git
 python HashTag.py -hc -sh $1$MtCReiOj$zvOdxVzPtrQ.PXNW3hTHI0
 ```
