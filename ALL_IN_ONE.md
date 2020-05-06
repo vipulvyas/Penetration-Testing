@@ -28,7 +28,7 @@ export SHELL=bash
 export TERM=xterm-256color
 ```
 [Header](#header)
----------------------------------------------------------------------------
+
 
 ## SMB Enumeration with smbmap and smbclient
 
