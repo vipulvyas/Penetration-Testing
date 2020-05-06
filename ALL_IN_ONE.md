@@ -97,7 +97,7 @@ attack   # | Mode
 rules :  /usr/share/hashcat/rules/
 ```
 ```
-cisco password cracking :: https://www.infosecmatter.com/cisco-password-cracking-and-decrypting-guide/)
+cisco password cracking :: https://www.infosecmatter.com/cisco-password-cracking-and-decrypting-guide/
 ```
 [Header](#header)
 ## Discovery
