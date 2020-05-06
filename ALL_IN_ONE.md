@@ -262,6 +262,10 @@ secretsdump.py -ntds ntds.dit -system system.save LOCAL -outputfile hash
 ```
 https://github.com/InfosecMatter/default-http-login-hunter
 ```
+```
+https://cirt.net/passwords
+https://www.routerpasswords.com/
+```
 [Header](#header)
 
 
