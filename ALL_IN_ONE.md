@@ -1,4 +1,4 @@
-# [A Real Reverse shell](#get-a-real-shell-from-a-reverse-shell)#[]
+# [A Real Reverse shell](#get-a-real-shell-from-a-reverse-shell)| [SMB Enumeration](#smb-enumeration-with-smbmap-and-smbclient)| [Password Cracking](#password-hash-identification) | [Directory finding](#discovery) | [Unicorn](#unicorn) | [LDAPSearch](#ldapsearch) | [DNS transfer](#dns-transfer) | [Pivoting with Autoroute ](#pivoting-with-autoroute) | [Port forward](#port-forward) | [RDP](#rdp) | [Impacket](#impacket) | [Defualt web Login](#defualt-web-login)
 
 ## Get a real shell from a reverse shell
 ```
@@ -28,7 +28,7 @@ export TERM=xterm-256color
 ```
 ---------------------------------------------------------------------------
 
-## SMB Enumeration with smbmap & smbclient
+## SMB Enumeration with smbmap and smbclient
 
 ### smbmap
 #### Basic Usage of smbmap
@@ -158,8 +158,7 @@ nslookup
 
 dig axfr @10.10.10.13 cronos.htb
 ```
-## Pivoting: Autoroute / Port FWD
-#### Autoroute
+## Pivoting with Autoroute 
 ```
 meterpreter > run autoroute -s 192.168.0.0/24
 [*] Adding a route to 192.168.0.0/255.255.255.0...
@@ -248,7 +247,7 @@ secretsdump.py -sam sam.save -security security.save -system system.save LOCAL
 secretsdump.py -ntds ntds.dit -system system.save LOCAL -outputfile hash
 ```
 
-## Defualt Login
+## Defualt web Login
 ```
 https://github.com/InfosecMatter/default-http-login-hunter
 ```
