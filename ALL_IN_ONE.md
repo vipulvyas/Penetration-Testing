@@ -1,5 +1,5 @@
 ## Header
-## [A Real Reverse shell        ](#get-a-real-shell-from-a-reverse-shell)| [SMB Enumeration     ](#smb-enumeration-with-smbmap-and-smbclient)| [Password Cracking       ](#password-hash-identification) | [Directory finding           ](#discovery) | [Unicorn        ](#unicorn) | [LDAPSearch       ](#ldapsearch) | [DNS transfer          ](#dns-transfer) | [Pivoting with Autoroute     ](#pivoting-with-autoroute) | [Port forward             ](#port-forward) | [RDP         ](#rdp) | [Impacket           ](#impacket) | [Defualt web Login         ](#defualt-web-login)
+## [A Real Reverse shell        ](#get-a-real-shell-from-a-reverse-shell)| [SMB Enumeration     ](#smb-enumeration-with-smbmap-and-smbclient)| [Password Cracking       ](#password-hash-identification) | [Directory finding           ](#discovery) | [Unicorn        ](#unicorn) | [LDAPSearch       ](#ldapsearch) | [DNS transfer          ](#dns-transfer) | [Pivoting with Autoroute     ](#pivoting-with-autoroute) | [Port forward             ](#port-forward) | [RDP         ](#rdp) | [Impacket           ](#impacket) | [Defualt web Login         ](#defualt-web-login) | [Credential From Network](#credential-from-Network)
 
 ## Get a real shell from a reverse shell
 ```
@@ -271,7 +271,31 @@ https://www.routerpasswords.com/
 ```
 [Header](#header)
 
+## Credential From Network
+```
+ngrep -I file.pcap -q -i "pattern"
+    -I (read PCAP file)
+    -q (quiet mode)
+    -i (case insensitive match)
+```
+```
+ngrep -I file.pcap -q -i 'pass=|pwd=|log=|login=|user=|username=|pw=|passw=|passwd=|password=|pass:|user:|username:|password:|login:|pass |user |auth'
+```
+```
+ngrep -I file.pcap -q -i '[&\s?](?:login|user(?:name|)|p(ass(?:word|wd|)|w|wd))[\s:=]\s?([^&\s]*)'
 
+```
+```
+ettercap -T -q -r file.pcap
+
+    -T (text only interface)
+    -q (quiet mode)
+    -r (read PCAP file)
+```
+```
+tshark -n -V -r file.pcap | grep -i 'authentication\|plain *text\|pass *word\|user *name\|simple:\|parameter name:\|parameter value:\|credentials:'
+```
+[Header](#header)
 
 
 
