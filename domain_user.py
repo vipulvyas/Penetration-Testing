@@ -17,10 +17,10 @@ def little(s):
 
 if __name__ == '__main__':
     i = 1100
-    SID = "0x0105000000000005150000001C00D1BCD181F1492BDFC236"
-    URL = "http://10.10.10.179/api/getColleagues"
+    SID = "0x0105000000000005150000001C00D1BCD181F1492BDFC236"   # sid for domain Group
+    URL = "http://10.10.10.179/api/getColleagues"                # URL
 
-    print colored("\n\n\t Enumerating script for Domain Account\n\n","magenta")
+    print colored("\n\n\t Enumerating script for Domain Account\n\n")
     
     for x in range(1100,6100,1000):
         for i in range(15):
