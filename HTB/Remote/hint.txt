@@ -1,0 +1,41 @@
+USER HINTS
+----------
+1. Search high and low, find some names and a cred. Find an exploit and do it.
+2. " />
+3. Once you've got creds for the site you don't need to use the full POC that presumably most of us found for RCE." />
+4. Go for the low-hanging fruit and brush up on your google-foo. If something looks important, it very well might be! Finally, before making a calculated risk, try something simple.
+5. 
+6. There is plenty of tips here for this. Basic enumeration combined with what type of box this is. When using publicly available scripts please take the time to understand them.
+7. Use the existing POC
+USER HINTS
+----------
+1. Search high and low, find some names and a cred. Find an exploit and do it.
+2. " />
+3. Once you've got creds for the site you don't need to use the full POC that presumably most of us found for RCE." />
+4. Go for the low-hanging fruit and brush up on your google-foo. If something looks important, it very well might be! Finally, before making a calculated risk, try something simple.
+5. 
+6. There is plenty of tips here for this. Basic enumeration combined with what type of box this is. When using publicly available scripts please take the time to understand them.
+7. Use the existing POC
+8. Find an interesting looking file and explore it. Once you find what you were looking for, do your research and find that POC everyone is talking about. Read the POC carefully and change what needs to be changed. Otherwise you’ll be simply popping up calculators on this Windows box
+9. enum, double enum, "mountines", enum, strings, crack...enum again, CVE, doesn't work from the box, change the process, shell, flag
+10. verify all the ports and think about files. Then enumerate
+11. creds simple, just remember if its mess doesn't mean you can't find something interesting. A had a problem with payload, the first thing you need to decide are you really need a calculator?
+12. look at what you can enumerate then read all the strings carefully. look at how you can use the content you get.
+13. Notice that if you use quotes in the arguments section (cmd variable), you have to use triple quotes (
+
+ROOT HINTS
+----------
+1. Standard checks, see what jumps out.
+2. The name of the box should help.
+3. Basic Windows enumeration gets you far. There isn't much else here.
+4. Got unintended way first as I thought what is the actual way was a rabbit hole but is actually the correct way. The name of the box does very much hint at how to get root access.
+5. do win enumeration from powershell manually or using the tools, things will jump at you
+6. The easiest part, enum and exploit. PM me if you need help." />
+7. What are some terrible places to hide config settings? Exactly
+8. enum, remote, "deeper" enum, find the right cracker, got passwd, flag
+9. U**S** and TV.
+10. find a "remote" program and exploit it
+11. with stable shell, it's going faster. Look what is running and chose your path.
+12. Power Rangers will help you
+13. Two ways I've heard people talking about. I went the u****c route only because I couldn't get TV to work for the life of me (though I did find the necessary info). It's pretty simple to find (with proper enum) and there is easily googleable info on how to use this service to your advantage.
+14. Use different enumeration scripts ( I went the U**c service way)
