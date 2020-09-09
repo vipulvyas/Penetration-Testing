@@ -1,0 +1,25 @@
+# Nmap 7.80 scan initiated Tue Apr 28 13:01:53 2020 as: nmap -sC -sV -oN nmap.txt -vv 10.10.10.183
+Nmap scan report for 10.10.10.183
+Host is up, received echo-reply ttl 63 (0.41s latency).
+Scanned at 2020-04-28 13:01:54 EDT for 25s
+Not shown: 998 closed ports
+Reason: 998 resets
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 63 OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 3c:3b:eb:54:96:81:1d:da:d7:96:c7:0f:b4:7e:e1:cf (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCnVtpfErAVlI+ACU8NH8NHbRBZj2g7pj5jk7xusWAA/J6ulNja04hhSJ/A2uEXiZg/4KrFVby7q/7IkSoNlgFkkICScBz6THy7Zfp3Xtaxoy97nlX7lb3RVzkOAtXhxCHCvIZpLUpURXHl/dQ/UXo8LS5JtuISZZCscxtRQiDUI9ySN7gPkpmNYE/UOoY/gg7+EY5qvvJ8gBzjPj6Q1C7veALXy8cE9hZpB3l3e7DdrFA0p4PMq2troma315vk0A4SgppfnAJbt8Hos6HjdQvPstaNybEMIbngABKNqmCQYQ0QQ0EnJjcOfgmODl1a4WQEqWPo7PmlBHcfFwHHkanT
+|   256 f6:b3:5f:a2:59:e3:1e:57:35:36:c3:fe:5e:3d:1f:66 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDA2ykHh+xWYg9uLDiP5jLwuvTda16WWnKjRFi53m4qC+aJorLXxLo1pTC0WcqQnMHhrgmIGoETU8uk8uAZPlYw=
+|   256 1b:de:b8:07:35:e8:18:2c:19:d8:cc:dd:77:9c:f2:5e (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGcEObi5j/h3qfBkLg9GzHQAruPuU71A9w+DgmAMQsYy
+80/tcp open  http    syn-ack ttl 63 Apache httpd 2.4.29 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+|_http-title: Did not follow redirect to http://forwardslash.htb
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Apr 28 13:02:19 2020 -- 1 IP address (1 host up) scanned in 26.99 seconds
