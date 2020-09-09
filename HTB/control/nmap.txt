@@ -1,0 +1,57 @@
+# Nmap 7.80 scan initiated Fri May  1 12:00:05 2020 as: nmap -sC -sV -vv -Pn -oN nmap.txt 10.10.10.167
+Nmap scan report for 10.10.10.167
+Host is up, received user-set (0.43s latency).
+Scanned at 2020-05-01 12:00:05 EDT for 88s
+Not shown: 997 filtered ports
+Reason: 997 no-responses
+PORT     STATE SERVICE REASON          VERSION
+80/tcp   open  http    syn-ack ttl 127 Microsoft IIS httpd 10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: Fidelity
+135/tcp  open  msrpc   syn-ack ttl 127 Microsoft Windows RPC
+3306/tcp open  mysql?  syn-ack ttl 127
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, FourOhFourRequest, Help, Kerberos, LANDesk-RC, LDAPSearchReq, NCP, RPCCheck, RTSPRequest, SIPOptions, SMBProgNeg, TLSSessionReq, TerminalServer, TerminalServerCookie: 
+|_    Host '10.10.14.28' is not allowed to connect to this MariaDB server
+| mysql-info: 
+|_  MySQL Error: Host '10.10.14.28' is not allowed to connect to this MariaDB server
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3306-TCP:V=7.80%I=7%D=5/1%Time=5EAC47B4%P=x86_64-pc-linux-gnu%r(RTS
+SF:PRequest,4A,"F\0\0\x01\xffj\x04Host\x20'10\.10\.14\.28'\x20is\x20not\x2
+SF:0allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(RPCChe
+SF:ck,4A,"F\0\0\x01\xffj\x04Host\x20'10\.10\.14\.28'\x20is\x20not\x20allow
+SF:ed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(DNSVersionBi
+SF:ndReqTCP,4A,"F\0\0\x01\xffj\x04Host\x20'10\.10\.14\.28'\x20is\x20not\x2
+SF:0allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(DNSSta
+SF:tusRequestTCP,4A,"F\0\0\x01\xffj\x04Host\x20'10\.10\.14\.28'\x20is\x20n
+SF:ot\x20allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(H
+SF:elp,4A,"F\0\0\x01\xffj\x04Host\x20'10\.10\.14\.28'\x20is\x20not\x20allo
+SF:wed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(TerminalSer
+SF:verCookie,4A,"F\0\0\x01\xffj\x04Host\x20'10\.10\.14\.28'\x20is\x20not\x
+SF:20allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(TLSSe
+SF:ssionReq,4A,"F\0\0\x01\xffj\x04Host\x20'10\.10\.14\.28'\x20is\x20not\x2
+SF:0allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(Kerber
+SF:os,4A,"F\0\0\x01\xffj\x04Host\x20'10\.10\.14\.28'\x20is\x20not\x20allow
+SF:ed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(SMBProgNeg,4
+SF:A,"F\0\0\x01\xffj\x04Host\x20'10\.10\.14\.28'\x20is\x20not\x20allowed\x
+SF:20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(FourOhFourReques
+SF:t,4A,"F\0\0\x01\xffj\x04Host\x20'10\.10\.14\.28'\x20is\x20not\x20allowe
+SF:d\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(LDAPSearchReq
+SF:,4A,"F\0\0\x01\xffj\x04Host\x20'10\.10\.14\.28'\x20is\x20not\x20allowed
+SF:\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(SIPOptions,4A,
+SF:"F\0\0\x01\xffj\x04Host\x20'10\.10\.14\.28'\x20is\x20not\x20allowed\x20
+SF:to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(LANDesk-RC,4A,"F\0
+SF:\0\x01\xffj\x04Host\x20'10\.10\.14\.28'\x20is\x20not\x20allowed\x20to\x
+SF:20connect\x20to\x20this\x20MariaDB\x20server")%r(TerminalServer,4A,"F\0
+SF:\0\x01\xffj\x04Host\x20'10\.10\.14\.28'\x20is\x20not\x20allowed\x20to\x
+SF:20connect\x20to\x20this\x20MariaDB\x20server")%r(NCP,4A,"F\0\0\x01\xffj
+SF:\x04Host\x20'10\.10\.14\.28'\x20is\x20not\x20allowed\x20to\x20connect\x
+SF:20to\x20this\x20MariaDB\x20server");
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri May  1 12:01:34 2020 -- 1 IP address (1 host up) scanned in 88.83 seconds
