@@ -1,0 +1,28 @@
+sudo nmap -sS -Pn -A 10.10.10.178
+[sudo] password for hasky: 
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-02-01 10:51 EST
+Nmap scan report for 10.10.10.178
+Host is up (0.013s latency).
+Not shown: 996 filtered ports
+PORT     STATE  SERVICE     VERSION
+113/tcp  closed ident
+2000/tcp open   cisco-sccp?
+8008/tcp open   http        Fortinet FortiGuard block page
+|_http-title: Did not follow redirect to https://10.10.10.178:8010/
+|_https-redirect: ERROR: Script execution failed (use -d to debug)
+8010/tcp closed xmpp
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+Network Distance: 4 hops
+Service Info: Device: security-misc
+
+TRACEROUTE (using port 8010/tcp)
+HOP RTT      ADDRESS
+1   7.28 ms  192.168.0.1
+2   4.97 ms  150.129.170.85
+3   4.65 ms  27.121.101.1
+4   84.71 ms 10.10.10.178
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 191.17 seconds
+
