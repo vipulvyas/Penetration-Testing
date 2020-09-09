@@ -1,0 +1,80 @@
+# Nmap 7.80 scan initiated Mon May 18 06:54:07 2020 as: nmap -sC -sV -A -vv -oN nmap.txt 10.10.10.177
+Increasing send delay for 10.10.10.177 from 5 to 10 due to 14 out of 45 dropped probes since last increase.
+Increasing send delay for 10.10.10.177 from 10 to 20 due to 25 out of 82 dropped probes since last increase.
+Increasing send delay for 10.10.10.177 from 20 to 40 due to 12 out of 39 dropped probes since last increase.
+Increasing send delay for 10.10.10.177 from 40 to 80 due to 11 out of 26 dropped probes since last increase.
+Increasing send delay for 10.10.10.177 from 80 to 160 due to 11 out of 24 dropped probes since last increase.
+WARNING: Service 10.10.10.177:8000 had already soft-matched rtsp, but now soft-matched sip; ignoring second value
+Nmap scan report for 10.10.10.177
+Host is up, received conn-refused (0.29s latency).
+Scanned at 2020-05-18 06:54:08 EDT for 89s
+Not shown: 996 closed ports
+Reason: 996 conn-refused
+PORT     STATE SERVICE REASON  VERSION
+21/tcp   open  ftp     syn-ack vsftpd 2.0.8 or later
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_-rw-r--r--    1 ftp      ftp            49 Feb 11 19:34 project.txt
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 10.10.15.33
+|      Logged in as ftp
+|      TYPE: ASCII
+|      Session bandwidth limit in byte/s is 30000
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 1
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+22/tcp   open  ssh     syn-ack OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 8d:6b:a7:2b:7a:21:9f:21:11:37:11:ed:50:4f:c6:1e (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCxVFDvWMZRJQ6DlQkjKUsp3Mz6vSQ64sDpR/hQogkUWR/lauECt86N34eRQmABl8IHGROUaH8EoNNy5ByJQk8TrHy+lD1TCKUlNyD8Cw5i4/JtSMHYasq/3mOdkciBCyNf7vVvEtadG1EsFvTfD2mOTNGt8rj61tp8VBvDIbSq1a4+SCkjBo2c3FW4sPkI1byfypASLlwwVXv/zZ58Ff5C47MZrA2fW9TdhBlkXleqv/6jeuYEpmEQRoiTxmdfpyVkr1/wBFs25jELQLv5DTyJyIrqT0WqHlyo5eBuax1ZEuNTxCVs2P48YxYIn5F8gfHPgSN7LzLclfAyghwe0oJp
+|   256 d2:af:55:5c:06:0b:60:db:9c:78:47:b5:ca:f4:f1:04 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIChK8SPfCVZj8VEE4jX8jzGbd5wB2nrxtLQkze3vxFxQ
+5000/tcp open  http    syn-ack nginx 1.14.2
+| http-methods: 
+|_  Supported Methods: GET HEAD OPTIONS
+|_http-server-header: nginx/1.14.2
+| http-title: Welcome to Oouch
+|_Requested resource was http://10.10.10.177:5000/login?next=%2F
+8000/tcp open  rtsp    syn-ack
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest, HTTPOptions: 
+|     HTTP/1.0 400 Bad Request
+|     Content-Type: text/html
+|     Vary: Authorization
+|     <h1>Bad Request (400)</h1>
+|   RTSPRequest: 
+|     RTSP/1.0 400 Bad Request
+|     Content-Type: text/html
+|     Vary: Authorization
+|     <h1>Bad Request (400)</h1>
+|   SIPOptions: 
+|     SIP/2.0 400 Bad Request
+|     Content-Type: text/html
+|     Vary: Authorization
+|_    <h1>Bad Request (400)</h1>
+| http-methods: 
+|_  Supported Methods: GET HEAD POST
+|_http-title: Site doesn't have a title (text/html).
+|_rtsp-methods: ERROR: Script execution failed (use -d to debug)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8000-TCP:V=7.80%I=7%D=5/18%Time=5EC26990%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,64,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nContent-Type:\x20tex
+SF:t/html\r\nVary:\x20Authorization\r\n\r\n<h1>Bad\x20Request\x20\(400\)</
+SF:h1>")%r(FourOhFourRequest,64,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nCon
+SF:tent-Type:\x20text/html\r\nVary:\x20Authorization\r\n\r\n<h1>Bad\x20Req
+SF:uest\x20\(400\)</h1>")%r(HTTPOptions,64,"HTTP/1\.0\x20400\x20Bad\x20Req
+SF:uest\r\nContent-Type:\x20text/html\r\nVary:\x20Authorization\r\n\r\n<h1
+SF:>Bad\x20Request\x20\(400\)</h1>")%r(RTSPRequest,64,"RTSP/1\.0\x20400\x2
+SF:0Bad\x20Request\r\nContent-Type:\x20text/html\r\nVary:\x20Authorization
+SF:\r\n\r\n<h1>Bad\x20Request\x20\(400\)</h1>")%r(SIPOptions,63,"SIP/2\.0\
+SF:x20400\x20Bad\x20Request\r\nContent-Type:\x20text/html\r\nVary:\x20Auth
+SF:orization\r\n\r\n<h1>Bad\x20Request\x20\(400\)</h1>");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon May 18 06:55:37 2020 -- 1 IP address (1 host up) scanned in 89.98 seconds
