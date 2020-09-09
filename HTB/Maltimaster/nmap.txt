@@ -1,0 +1,105 @@
+# Nmap 7.80 scan initiated Sun May  3 07:31:08 2020 as: nmap -sC -sV -vv -oN nmap.txt 10.10.10.179
+Nmap scan report for 10.10.10.179
+Host is up, received echo-reply ttl 127 (0.33s latency).
+Scanned at 2020-05-03 07:31:09 EDT for 405s
+Not shown: 987 filtered ports
+Reason: 987 no-responses
+PORT     STATE SERVICE       REASON          VERSION
+53/tcp   open  domain?       syn-ack ttl 127
+| fingerprint-strings: 
+|   DNSVersionBindReqTCP: 
+|     version
+|_    bind
+80/tcp   open  http          syn-ack ttl 127 Microsoft IIS httpd 10.0
+|_http-favicon: Unknown favicon MD5: 6944F7C42798BE78E1465F1C49B5BF04
+| http-methods: 
+|   Supported Methods: GET HEAD OPTIONS TRACE
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: MegaCorp
+88/tcp   open  kerberos-sec  syn-ack ttl 127 Microsoft Windows Kerberos (server time: 2020-05-03 11:40:43Z)
+135/tcp  open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+139/tcp  open  netbios-ssn   syn-ack ttl 127 Microsoft Windows netbios-ssn
+389/tcp  open  ldap          syn-ack ttl 127 Microsoft Windows Active Directory LDAP (Domain: MEGACORP.LOCAL, Site: Default-First-Site-Name)
+445/tcp  open  microsoft-ds  syn-ack ttl 127 Windows Server 2016 Standard 14393 microsoft-ds (workgroup: MEGACORP)
+464/tcp  open  kpasswd5?     syn-ack ttl 127
+593/tcp  open  ncacn_http    syn-ack ttl 127 Microsoft Windows RPC over HTTP 1.0
+636/tcp  open  tcpwrapped    syn-ack ttl 127
+3268/tcp open  ldap          syn-ack ttl 127 Microsoft Windows Active Directory LDAP (Domain: MEGACORP.LOCAL, Site: Default-First-Site-Name)
+3269/tcp open  tcpwrapped    syn-ack ttl 127
+3389/tcp open  ms-wbt-server syn-ack ttl 127 Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: MEGACORP
+|   NetBIOS_Domain_Name: MEGACORP
+|   NetBIOS_Computer_Name: MULTIMASTER
+|   DNS_Domain_Name: MEGACORP.LOCAL
+|   DNS_Computer_Name: MULTIMASTER.MEGACORP.LOCAL
+|   DNS_Tree_Name: MEGACORP.LOCAL
+|   Product_Version: 10.0.14393
+|_  System_Time: 2020-05-03T11:43:17+00:00
+| ssl-cert: Subject: commonName=MULTIMASTER.MEGACORP.LOCAL
+| Issuer: commonName=MULTIMASTER.MEGACORP.LOCAL
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-03-08T09:52:26
+| Not valid after:  2020-09-07T09:52:26
+| MD5:   69b4 51a3 a73c 572c 0344 6c16 e44a 1b28
+| SHA-1: 9587 34e8 ccb6 075f bc4a aa3b 375a 1f94 4c63 c705
+| -----BEGIN CERTIFICATE-----
+| MIIC+DCCAeCgAwIBAgIQZWj9kaWZu5BAJIBWZT6z0jANBgkqhkiG9w0BAQsFADAl
+| MSMwIQYDVQQDExpNVUxUSU1BU1RFUi5NRUdBQ09SUC5MT0NBTDAeFw0yMDAzMDgw
+| OTUyMjZaFw0yMDA5MDcwOTUyMjZaMCUxIzAhBgNVBAMTGk1VTFRJTUFTVEVSLk1F
+| R0FDT1JQLkxPQ0FMMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAykON
+| gyCXeOXHXz3UrIiUgvsYDVQ8IS24uhJ/yKyTdRahoQbnHSeuu1IGP0IgUSbSXszr
+| KmX2j/uNOYoMVyif7aKbsGef2IFj8VbAqW9z4Q3oYlOHJ/0b7s9OO0BFv35RFwAv
+| ShkPBvLj47pAzRgfQ7CvWmwISYsdhkaomocChvH9uuEqt+Q7+I/gus1KlcOMSyBY
+| D9hN5hYvx1ilOlC6PTzod6iz1VJUtHWLVPdHlcrbWIlisuOf/4eVN2U3FSI+ZDcP
+| e8EfXmGNdn72+UXMfCgx8egRwGONfevW10o2/BA3NWTWt5Lyx3m1uqQNh7Isk5By
+| OjQSaFgr06M+K0ga+wIDAQABoyQwIjATBgNVHSUEDDAKBggrBgEFBQcDATALBgNV
+| HQ8EBAMCBDAwDQYJKoZIhvcNAQELBQADggEBAKk7kvcAM0FJQcvy6Rr1e38y+928
+| a6gYglBu/Xsa45KxDr6yA21t67H4WoPsqkkVXiaPo+DM82GGmqLzJ/V8buVpD49A
+| ct5Jya6AcNoign1GPIOjYtOXtRWXIUrMwtYvb3D3Up7fBoCvr0rYR8xhd5p1eW4y
+| dDmVSET2yQA1LAhxqHZ09N3loD7VmkrDlDg69cBUPhVGrUknzUIHyq0gfHJgKdG+
+| Bcz3bwkz8OshapgbOb+6KLe0CQAlZWVhaDNv3WmKQ3RMg99TyMtltpzg13ACX+Yr
+| wIGcB+er0ox74sT3QZhCQEEVWpY+oqytCjP6vcSmtX+A0mR+4rHcYGu9yuU=
+|_-----END CERTIFICATE-----
+|_ssl-date: 2020-05-03T11:43:57+00:00; +8m04s from scanner time.
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.80%I=7%D=5/3%Time=5EAEABDC%P=x86_64-pc-linux-gnu%r(DNSVe
+SF:rsionBindReqTCP,20,"\0\x1e\0\x06\x81\x04\0\x01\0\0\0\0\0\0\x07version\x
+SF:04bind\0\0\x10\0\x03");
+Service Info: Host: MULTIMASTER; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 1h32m04s, deviation: 3h07m52s, median: 8m03s
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 41922/tcp): CLEAN (Timeout)
+|   Check 2 (port 3155/tcp): CLEAN (Timeout)
+|   Check 3 (port 30701/udp): CLEAN (Timeout)
+|   Check 4 (port 42275/udp): CLEAN (Timeout)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb-os-discovery: 
+|   OS: Windows Server 2016 Standard 14393 (Windows Server 2016 Standard 6.3)
+|   Computer name: MULTIMASTER
+|   NetBIOS computer name: MULTIMASTER\x00
+|   Domain name: MEGACORP.LOCAL
+|   Forest name: MEGACORP.LOCAL
+|   FQDN: MULTIMASTER.MEGACORP.LOCAL
+|_  System time: 2020-05-03T04:43:21-07:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: required
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2020-05-03T11:43:18
+|_  start_date: 2020-05-03T05:18:05
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun May  3 07:37:55 2020 -- 1 IP address (1 host up) scanned in 407.01 seconds
