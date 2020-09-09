@@ -1,0 +1,23 @@
+# extended LDIF
+#
+# LDAPv3
+# base <DC=htb,DC=local> with scope subtree
+# filter: (objectClass=Peerson)
+# requesting: ALL
+#
+
+# search reference
+ref: ldap://ForestDnsZones.htb.local/DC=ForestDnsZones,DC=htb,DC=local
+
+# search reference
+ref: ldap://DomainDnsZones.htb.local/DC=DomainDnsZones,DC=htb,DC=local
+
+# search reference
+ref: ldap://htb.local/CN=Configuration,DC=htb,DC=local
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 4
+# numReferences: 3
