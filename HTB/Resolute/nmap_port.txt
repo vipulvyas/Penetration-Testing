@@ -1,0 +1,9 @@
+# Nmap 7.80 scan initiated Wed Apr  1 02:34:42 2020 as: nmap -Pn -n -A -T5 -p1-65535 -vv -o nmap_port.txt 10.10.10.169
+Warning: 10.10.10.169 giving up on port because retransmission cap hit (2).
+Increasing send delay for 10.10.10.169 from 0 to 5 due to 983 out of 2456 dropped probes since last increase.
+Nmap scan report for 10.10.10.169
+Host is up, received user-set (0.33s latency).
+Skipping host 10.10.10.169 due to host timeout
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Apr  1 02:49:44 2020 -- 1 IP address (1 host up) scanned in 901.68 seconds

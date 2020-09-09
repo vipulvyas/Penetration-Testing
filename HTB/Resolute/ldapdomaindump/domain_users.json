@@ -1,0 +1,2495 @@
+[{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:29.640961+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "Naoki Yamamoto"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Naoki Yamamoto,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Naoki Yamamoto"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{ff6a0080-2cf5-481a-860a-81c71903c0dd}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-10104"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-12-04 10:40:44.342485+00:00"
+        ],
+        "sAMAccountName": [
+            "naoki"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            131156
+        ],
+        "uSNCreated": [
+            131152
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "naoki@megabank.local"
+        ],
+        "whenChanged": [
+            "2019-12-04 10:40:44+00:00"
+        ],
+        "whenCreated": [
+            "2019-12-04 10:40:44+00:00"
+        ]
+    },
+    "dn": "CN=Naoki Yamamoto,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:36.219343+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "Simon Faraday"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Simon Faraday,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Simon Faraday"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{87cf9aea-cb55-4a2e-bac4-0793deb588eb}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-10103"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-12-04 10:39:58.563444+00:00"
+        ],
+        "sAMAccountName": [
+            "simon"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            131150
+        ],
+        "uSNCreated": [
+            131146
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "simon@megabank.local"
+        ],
+        "whenChanged": [
+            "2019-12-04 10:39:58+00:00"
+        ],
+        "whenCreated": [
+            "2019-12-04 10:39:58+00:00"
+        ]
+    },
+    "dn": "CN=Simon Faraday,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:43.453480+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "Zach Armstrong"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Zach Armstrong,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Zach Armstrong"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{dc4beafd-12fa-4ddb-8aa2-15e82444e60e}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-10102"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-12-04 10:39:27.835093+00:00"
+        ],
+        "sAMAccountName": [
+            "zach"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            131144
+        ],
+        "uSNCreated": [
+            131140
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "zach@megabank.local"
+        ],
+        "whenChanged": [
+            "2019-12-04 10:39:27+00:00"
+        ],
+        "whenCreated": [
+            "2019-12-04 10:39:27+00:00"
+        ]
+    },
+    "dn": "CN=Zach Armstrong,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Melanie Purkis"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Melanie Purkis,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2020-04-01 04:20:31.106760+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "logonHours": [
+            {
+                "encoded": "////////////////////////////",
+                "encoding": "base64"
+            }
+        ],
+        "memberOf": [
+            "CN=Remote Management Users,CN=Builtin,DC=megabank,DC=local"
+        ],
+        "name": [
+            "Melanie Purkis"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{65328a5d-5b70-4e66-9006-ea1846c36402}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-10101"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2020-04-01 07:05:02.844812+00:00"
+        ],
+        "sAMAccountName": [
+            "melanie"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            148533
+        ],
+        "uSNCreated": [
+            131130
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "melanie@megabank.local"
+        ],
+        "whenChanged": [
+            "2020-04-01 07:05:02+00:00"
+        ],
+        "whenCreated": [
+            "2019-12-04 10:38:45+00:00"
+        ]
+    },
+    "dn": "CN=Melanie Purkis,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:15.265930+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "Claude Segal"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Claude Segal,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Claude Segal"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{ec5c1c3d-c1ed-4cf6-9cef-c4e8e3bb8c47}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-6617"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-12-03 21:39:56.407621+00:00"
+        ],
+        "sAMAccountName": [
+            "claude"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            102954
+        ],
+        "uSNCreated": [
+            102950
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "claude@megabank.local"
+        ],
+        "whenChanged": [
+            "2019-12-03 21:39:56+00:00"
+        ],
+        "whenCreated": [
+            "2019-12-03 21:39:56+00:00"
+        ]
+    },
+    "dn": "CN=Claude Segal,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:32.187822+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "Per Olsson"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Per Olsson,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Per Olsson"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{109fae54-cd7a-492f-a6ad-d3838dadf5b2}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-6616"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-12-03 21:38:12.278673+00:00"
+        ],
+        "sAMAccountName": [
+            "per"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            102916
+        ],
+        "uSNCreated": [
+            102912
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "per@megabank.local"
+        ],
+        "whenChanged": [
+            "2019-12-03 21:38:12+00:00"
+        ],
+        "whenCreated": [
+            "2019-12-03 21:38:04+00:00"
+        ]
+    },
+    "dn": "CN=Per Olsson,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:11.265963+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "Annika Larson"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Annika Larson,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Annika Larson"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{b42e96d6-5051-4476-8918-d9838ec0270d}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-6615"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-12-03 21:37:23.666378+00:00"
+        ],
+        "sAMAccountName": [
+            "annika"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            102894
+        ],
+        "uSNCreated": [
+            102890
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "annika@megabank.local"
+        ],
+        "whenChanged": [
+            "2019-12-03 21:37:23+00:00"
+        ],
+        "whenCreated": [
+            "2019-12-03 21:37:23+00:00"
+        ]
+    },
+    "dn": "CN=Annika Larson,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:09.969051+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "Annette Nilsson"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Annette Nilsson,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Annette Nilsson"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{6c56c711-a5bb-4e12-b634-e9ab5a2192f8}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-6614"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-12-03 21:36:55.592358+00:00"
+        ],
+        "sAMAccountName": [
+            "annette"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            102888
+        ],
+        "uSNCreated": [
+            102884
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "annette@megabank.local"
+        ],
+        "whenChanged": [
+            "2019-12-03 21:36:55+00:00"
+        ],
+        "whenCreated": [
+            "2019-12-03 21:36:55+00:00"
+        ]
+    },
+    "dn": "CN=Annette Nilsson,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:37.515961+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "Steve Rider"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Steve Rider,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Steve Rider"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{1af1c91f-4439-421d-b644-f02b1177ff97}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-6613"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-12-03 21:35:25.125917+00:00"
+        ],
+        "sAMAccountName": [
+            "steve"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            102850
+        ],
+        "uSNCreated": [
+            102846
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "steve@megabank.local"
+        ],
+        "whenChanged": [
+            "2019-12-03 21:35:25+00:00"
+        ],
+        "whenCreated": [
+            "2019-12-03 21:35:25+00:00"
+        ]
+    },
+    "dn": "CN=Steve Rider,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:30.891249+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "Paulo Alcobia"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Paulo Alcobia,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Paulo Alcobia"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{9820ef48-6c54-4a85-b58c-87ddadb63c3b}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-6612"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-12-03 21:34:46.745428+00:00"
+        ],
+        "sAMAccountName": [
+            "paulo"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            102844
+        ],
+        "uSNCreated": [
+            102840
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "paulo@megabank.local"
+        ],
+        "whenChanged": [
+            "2019-12-03 21:34:46+00:00"
+        ],
+        "whenCreated": [
+            "2019-12-03 21:34:46+00:00"
+        ]
+    },
+    "dn": "CN=Paulo Alcobia,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:13.469036+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "Claire Norman"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Claire Norman,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Claire Norman"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{d99818c1-64e3-4b5a-9637-8bee742a46c8}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-6611"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-12-03 21:33:44.808449+00:00"
+        ],
+        "sAMAccountName": [
+            "claire"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            102821
+        ],
+        "uSNCreated": [
+            102817
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "claire@megabank.local"
+        ],
+        "whenChanged": [
+            "2019-12-03 21:33:44+00:00"
+        ],
+        "whenCreated": [
+            "2019-12-03 21:33:44+00:00"
+        ]
+    },
+    "dn": "CN=Claire Norman,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:39.281761+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "Stevie Gerrard"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Stevie Gerrard,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Stevie Gerrard"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{3655d870-72ea-4ee5-b162-1fdbe0e5c4b4}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-6610"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-12-03 21:33:13.438135+00:00"
+        ],
+        "sAMAccountName": [
+            "stevie"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            102798
+        ],
+        "uSNCreated": [
+            102794
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "stevie@megabank.local"
+        ],
+        "whenChanged": [
+            "2019-12-03 21:33:13+00:00"
+        ],
+        "whenCreated": [
+            "2019-12-03 21:33:13+00:00"
+        ]
+    },
+    "dn": "CN=Stevie Gerrard,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:42.031590+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "Ulf Berg"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Ulf Berg,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Ulf Berg"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{32a91c97-6592-4ec3-b21b-0fd00972bb97}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-6609"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-12-03 21:32:19.957565+00:00"
+        ],
+        "sAMAccountName": [
+            "ulf"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            102788
+        ],
+        "uSNCreated": [
+            102784
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "ulf@megabank.local"
+        ],
+        "whenChanged": [
+            "2019-12-03 21:32:20+00:00"
+        ],
+        "whenCreated": [
+            "2019-12-03 21:32:19+00:00"
+        ]
+    },
+    "dn": "CN=Ulf Berg,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:20.078459+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "Gustavo Pallieros"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Gustavo Pallieros,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Gustavo Pallieros"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{51dcceb5-9dc8-400f-b084-a4607753a543}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-6608"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-12-03 21:31:42.082567+00:00"
+        ],
+        "sAMAccountName": [
+            "gustavo"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            102770
+        ],
+        "uSNCreated": [
+            102766
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "gustavo@megabank.local"
+        ],
+        "whenChanged": [
+            "2019-12-03 21:31:42+00:00"
+        ],
+        "whenCreated": [
+            "2019-12-03 21:31:42+00:00"
+        ]
+    },
+    "dn": "CN=Gustavo Pallieros,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:16.547173+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "Felicia Carter"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Felicia Carter,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Felicia Carter"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{0abae800-e9b9-438d-a121-0590033f364e}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-6607"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-12-03 21:30:53.545223+00:00"
+        ],
+        "sAMAccountName": [
+            "felicia"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            102748
+        ],
+        "uSNCreated": [
+            102744
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "felicia@megabank.local"
+        ],
+        "whenChanged": [
+            "2019-12-03 21:30:53+00:00"
+        ],
+        "whenCreated": [
+            "2019-12-03 21:30:53+00:00"
+        ]
+    },
+    "dn": "CN=Felicia Carter,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:08.672165+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "Angela Perkins"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Angela Perkins,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Angela Perkins"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{4925ca94-e42f-494c-a483-f836ed7c370b}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-6606"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-12-03 21:29:43.451149+00:00"
+        ],
+        "sAMAccountName": [
+            "angela"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            102726
+        ],
+        "uSNCreated": [
+            102722
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "angela@megabank.local"
+        ],
+        "whenChanged": [
+            "2019-12-03 21:29:43+00:00"
+        ],
+        "whenCreated": [
+            "2019-12-03 21:29:43+00:00"
+        ]
+    },
+    "dn": "CN=Angela Perkins,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:18.812771+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "Fred Carr"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Fred Carr,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Fred Carr"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{be260794-86a5-4e8c-9644-9aa65b43fef9}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-6605"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-12-03 21:29:01.882442+00:00"
+        ],
+        "sAMAccountName": [
+            "fred"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            102704
+        ],
+        "uSNCreated": [
+            102700
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "fred@megabank.local"
+        ],
+        "whenChanged": [
+            "2019-12-03 21:29:01+00:00"
+        ],
+        "whenCreated": [
+            "2019-12-03 21:29:01+00:00"
+        ]
+    },
+    "dn": "CN=Fred Carr,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:34.750319+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "Sally May"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Sally May,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Sally May"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{5bad034c-9522-4b84-858d-5365a54442e1}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-6604"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-12-03 21:28:29.622616+00:00"
+        ],
+        "sAMAccountName": [
+            "sally"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            102698
+        ],
+        "uSNCreated": [
+            102694
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "sally@megabank.local"
+        ],
+        "whenChanged": [
+            "2019-12-03 21:28:29+00:00"
+        ],
+        "whenCreated": [
+            "2019-12-03 21:28:29+00:00"
+        ]
+    },
+    "dn": "CN=Sally May,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:24.141024+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "Marcus Strong"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Marcus Strong,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Marcus Strong"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{87a7d98c-10f7-4df3-8d97-9199ae13bb18}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-6603"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-12-03 21:27:59.256271+00:00"
+        ],
+        "sAMAccountName": [
+            "marcus"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            102676
+        ],
+        "uSNCreated": [
+            102672
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "marcus@megabank.local"
+        ],
+        "whenChanged": [
+            "2019-12-03 21:27:59+00:00"
+        ],
+        "whenCreated": [
+            "2019-12-03 21:27:59+00:00"
+        ]
+    },
+    "dn": "CN=Marcus Strong,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:05.063015+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "Abigail Jeffers"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Abigail Jeffers,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Abigail Jeffers"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{569705bd-9cd2-4c3e-95c1-a57adfe36993}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-6602"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-12-03 21:27:30.936945+00:00"
+        ],
+        "sAMAccountName": [
+            "abigail"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            102669
+        ],
+        "uSNCreated": [
+            102665
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "abigail@megabank.local"
+        ],
+        "whenChanged": [
+            "2019-12-03 21:27:30+00:00"
+        ],
+        "whenCreated": [
+            "2019-12-03 21:27:30+00:00"
+        ]
+    },
+    "dn": "CN=Abigail Jeffers,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:40.781570+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "Sunita Rahman"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Sunita Rahman,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Sunita Rahman"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{b731523c-766d-42c0-a256-2838033b0d58}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-6601"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-12-03 21:26:29.108328+00:00"
+        ],
+        "sAMAccountName": [
+            "sunita"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            102647
+        ],
+        "uSNCreated": [
+            102643
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "sunita@megabank.local"
+        ],
+        "whenChanged": [
+            "2019-12-03 21:26:29+00:00"
+        ],
+        "whenCreated": [
+            "2019-12-03 21:26:29+00:00"
+        ]
+    },
+    "dn": "CN=Sunita Rahman,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:25.390934+00:00"
+        ],
+        "badPwdCount": [
+            2
+        ],
+        "cn": [
+            "Marko Novak"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2019-09-27 22:10:48+00:00",
+            "2019-09-27 13:17:14+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Account created. Password set to Welcome123!"
+        ],
+        "displayName": [
+            "Marko Novak"
+        ],
+        "distinguishedName": [
+            "CN=Marko Novak,OU=Employees,OU=MegaBank Users,DC=megabank,DC=local"
+        ],
+        "givenName": [
+            "Marko"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Marko Novak"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{491182f2-0d74-4598-b889-32e3ceec02a7}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-1111"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-09-27 13:17:14.569061+00:00"
+        ],
+        "sAMAccountName": [
+            "marko"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Novak"
+        ],
+        "uSNChanged": [
+            69792
+        ],
+        "uSNCreated": [
+            13110
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "marko@megabank.local"
+        ],
+        "whenChanged": [
+            "2019-12-03 13:24:27+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-27 13:17:14+00:00"
+        ]
+    },
+    "dn": "CN=Marko Novak,OU=Employees,OU=MegaBank Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:33.469074+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "Ryan Bertrand"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2019-09-27 22:10:48+00:00",
+            "2019-09-27 10:56:50+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "displayName": [
+            "Ryan Bertrand"
+        ],
+        "distinguishedName": [
+            "CN=Ryan Bertrand,OU=Contractors,OU=MegaBank Users,DC=megabank,DC=local"
+        ],
+        "givenName": [
+            "Ryan"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "logonHours": [
+            {
+                "encoded": "////////////////////////////",
+                "encoding": "base64"
+            }
+        ],
+        "memberOf": [
+            "CN=Contractors,OU=Groups,DC=megabank,DC=local"
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "Ryan Bertrand"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{848c83e3-6cbe-4d3e-bacf-aa7bd37da691}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-1105"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2020-04-01 07:05:02.188562+00:00"
+        ],
+        "sAMAccountName": [
+            "ryan"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Bertrand"
+        ],
+        "uSNChanged": [
+            148531
+        ],
+        "uSNCreated": [
+            13048
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "ryan@megabank.local"
+        ],
+        "whenChanged": [
+            "2020-04-01 07:05:02+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-27 10:56:50+00:00"
+        ]
+    },
+    "dn": "CN=Ryan Bertrand,OU=Contractors,OU=MegaBank Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:22.859713+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "krbtgt"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2019-09-27 22:10:48+00:00",
+            "2019-09-27 10:52:19+00:00",
+            "2019-09-25 13:44:22+00:00",
+            "2019-09-25 13:29:12+00:00",
+            "1601-07-14 04:20:16+00:00"
+        ],
+        "description": [
+            "Key Distribution Center Service Account"
+        ],
+        "distinguishedName": [
+            "CN=krbtgt,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=megabank,DC=local"
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "krbtgt"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{7f638b10-cfbf-45e4-84bb-3be922c4d2e0}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-502"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-09-25 13:29:12.154667+00:00"
+        ],
+        "sAMAccountName": [
+            "krbtgt"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "servicePrincipalName": [
+            "kadmin/changepw"
+        ],
+        "showInAdvancedViewOnly": [
+            true
+        ],
+        "uSNChanged": [
+            12776
+        ],
+        "uSNCreated": [
+            12324
+        ],
+        "userAccountControl": [
+            514
+        ],
+        "whenChanged": [
+            "2019-09-25 13:44:21+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-25 13:29:12+00:00"
+        ]
+    },
+    "dn": "CN=krbtgt,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "DefaultAccount"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2019-09-27 22:10:48+00:00",
+            "2019-09-27 10:52:19+00:00",
+            "2019-09-25 13:29:12+00:00",
+            "1601-01-01 18:16:33+00:00"
+        ],
+        "description": [
+            "A user account managed by the system."
+        ],
+        "distinguishedName": [
+            "CN=DefaultAccount,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=System Managed Accounts Group,CN=Builtin,DC=megabank,DC=local"
+        ],
+        "name": [
+            "DefaultAccount"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{263e5c28-d452-44e2-9f44-adddeedb5c41}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-503"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "sAMAccountName": [
+            "DefaultAccount"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            8198
+        ],
+        "uSNCreated": [
+            8198
+        ],
+        "userAccountControl": [
+            66082
+        ],
+        "whenChanged": [
+            "2019-09-25 13:28:31+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-25 13:28:31+00:00"
+        ]
+    },
+    "dn": "CN=DefaultAccount,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Guest"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2019-09-27 22:10:48+00:00",
+            "2019-09-27 10:52:19+00:00",
+            "2019-09-25 13:29:12+00:00",
+            "1601-01-01 18:16:33+00:00"
+        ],
+        "description": [
+            "Built-in account for guest access to the computer/domain"
+        ],
+        "distinguishedName": [
+            "CN=Guest,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Guests,CN=Builtin,DC=megabank,DC=local"
+        ],
+        "name": [
+            "Guest"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{bf345b75-3cc6-4e92-80eb-2244f03e669b}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-501"
+        ],
+        "primaryGroupID": [
+            514
+        ],
+        "pwdLastSet": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "sAMAccountName": [
+            "Guest"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            8197
+        ],
+        "uSNCreated": [
+            8197
+        ],
+        "userAccountControl": [
+            66082
+        ],
+        "whenChanged": [
+            "2019-09-25 13:28:31+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-25 13:28:31+00:00"
+        ]
+    },
+    "dn": "CN=Guest,CN=Users,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "2020-04-01 06:58:06.313091+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "Administrator"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2020-04-01 04:35:13+00:00",
+            "2019-09-27 22:10:48+00:00",
+            "2019-09-27 10:52:19+00:00",
+            "2019-09-25 13:44:22+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Built-in account for administering the computer/domain"
+        ],
+        "distinguishedName": [
+            "CN=Administrator,CN=Users,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2020-04-01 04:21:33.669378+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2020-04-01 04:21:33.669378+00:00"
+        ],
+        "logonCount": [
+            62
+        ],
+        "logonHours": [
+            {
+                "encoded": "////////////////////////////",
+                "encoding": "base64"
+            }
+        ],
+        "memberOf": [
+            "CN=Group Policy Creator Owners,CN=Users,DC=megabank,DC=local",
+            "CN=Domain Admins,CN=Users,DC=megabank,DC=local",
+            "CN=Enterprise Admins,CN=Users,DC=megabank,DC=local",
+            "CN=Schema Admins,CN=Users,DC=megabank,DC=local",
+            "CN=Administrators,CN=Builtin,DC=megabank,DC=local"
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "Administrator"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{d5755f95-25a9-4798-82d7-862601e12c8d}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-500"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2020-04-01 07:05:02.860434+00:00"
+        ],
+        "sAMAccountName": [
+            "Administrator"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            148535
+        ],
+        "uSNCreated": [
+            8196
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "whenChanged": [
+            "2020-04-01 07:05:02+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-25 13:28:31+00:00"
+        ]
+    },
+    "dn": "CN=Administrator,CN=Users,DC=megabank,DC=local"
+}]

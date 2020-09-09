@@ -1,0 +1,266 @@
+[{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "MS02"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dNSHostName": [
+            "MS02.megabank.local"
+        ],
+        "dSCorePropagationData": [
+            "2019-09-27 22:10:48+00:00",
+            "2019-09-27 10:52:18+00:00",
+            "1601-01-01 00:04:17+00:00"
+        ],
+        "distinguishedName": [
+            "CN=MS02,CN=Computers,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            false
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2019-09-28 23:00:12.674082+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2019-09-27 10:35:08.331310+00:00"
+        ],
+        "localPolicyFlags": [
+            0
+        ],
+        "logonCount": [
+            8
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            28
+        ],
+        "name": [
+            "MS02"
+        ],
+        "objectCategory": [
+            "CN=Computer,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user",
+            "computer"
+        ],
+        "objectGUID": [
+            "{652a4711-637f-45f3-a255-70d46cc42eb3}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-1104"
+        ],
+        "operatingSystem": [
+            "Windows Server 2016 Standard"
+        ],
+        "operatingSystemVersion": [
+            "10.0 (14393)"
+        ],
+        "primaryGroupID": [
+            515
+        ],
+        "pwdLastSet": [
+            "2019-09-27 10:33:55.846798+00:00"
+        ],
+        "sAMAccountName": [
+            "MS02$"
+        ],
+        "sAMAccountType": [
+            805306369
+        ],
+        "servicePrincipalName": [
+            "RestrictedKrbHost/MS02",
+            "HOST/MS02",
+            "RestrictedKrbHost/MS02.megabank.local",
+            "HOST/MS02.megabank.local"
+        ],
+        "uSNChanged": [
+            12993
+        ],
+        "uSNCreated": [
+            12985
+        ],
+        "userAccountControl": [
+            4096
+        ],
+        "whenChanged": [
+            "2019-09-27 10:35:08+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-27 10:33:55+00:00"
+        ]
+    },
+    "dn": "CN=MS02,CN=Computers,DC=megabank,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "RESOLUTE"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dNSHostName": [
+            "Resolute.megabank.local"
+        ],
+        "dSCorePropagationData": [
+            "2019-09-27 22:10:48+00:00",
+            "2019-09-27 10:52:18+00:00",
+            "2019-09-25 13:29:12+00:00",
+            "1601-01-01 18:16:33+00:00"
+        ],
+        "displayName": [
+            "RESOLUTE$"
+        ],
+        "distinguishedName": [
+            "CN=RESOLUTE,OU=Domain Controllers,DC=megabank,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2020-04-01 04:20:43.388035+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2020-04-01 04:20:43.388035+00:00"
+        ],
+        "localPolicyFlags": [
+            0
+        ],
+        "logonCount": [
+            97
+        ],
+        "msDFSR-ComputerReferenceBL": [
+            "CN=DC,CN=Topology,CN=Domain System Volume,CN=DFSR-GlobalSettings,CN=System,DC=megabank,DC=local"
+        ],
+        "msDS-GenerationId": [
+            {
+                "encoded": "+5uis5KMm3g=",
+                "encoding": "base64"
+            }
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            28
+        ],
+        "name": [
+            "RESOLUTE"
+        ],
+        "objectCategory": [
+            "CN=Computer,CN=Schema,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user",
+            "computer"
+        ],
+        "objectGUID": [
+            "{3cf00402-4706-48aa-8f00-d407dd13ac95}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1392959593-3013219662-3596683436-1000"
+        ],
+        "operatingSystem": [
+            "Windows Server 2016 Standard"
+        ],
+        "operatingSystemVersion": [
+            "10.0 (14393)"
+        ],
+        "primaryGroupID": [
+            516
+        ],
+        "pwdLastSet": [
+            "2020-04-01 04:20:31.216131+00:00"
+        ],
+        "rIDSetReferences": [
+            "CN=RID Set,CN=RESOLUTE,OU=Domain Controllers,DC=megabank,DC=local"
+        ],
+        "sAMAccountName": [
+            "RESOLUTE$"
+        ],
+        "sAMAccountType": [
+            805306369
+        ],
+        "serverReferenceBL": [
+            "CN=RESOLUTE,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=megabank,DC=local"
+        ],
+        "servicePrincipalName": [
+            "Dfsr-12F9A27C-BF97-4787-9364-D31B6C55EB04/Resolute.megabank.local",
+            "ldap/Resolute.megabank.local/ForestDnsZones.megabank.local",
+            "ldap/Resolute.megabank.local/DomainDnsZones.megabank.local",
+            "DNS/Resolute.megabank.local",
+            "GC/Resolute.megabank.local/megabank.local",
+            "HOST/Resolute.megabank.local/MEGABANK",
+            "HOST/Resolute.megabank.local/megabank.local",
+            "ldap/Resolute.megabank.local/MEGABANK",
+            "ldap/Resolute.megabank.local",
+            "ldap/Resolute.megabank.local/megabank.local",
+            "RestrictedKrbHost/Resolute.megabank.local",
+            "HOST/Resolute.megabank.local",
+            "RestrictedKrbHost/RESOLUTE",
+            "HOST/RESOLUTE/MEGABANK",
+            "HOST/RESOLUTE",
+            "ldap/RESOLUTE/MEGABANK",
+            "ldap/RESOLUTE",
+            "RPC/b9024923-44e7-4b82-83d5-7e0d199af2bc._msdcs.megabank.local",
+            "E3514235-4B06-11D1-AB04-00C04FC2DCD2/b9024923-44e7-4b82-83d5-7e0d199af2bc/megabank.local",
+            "ldap/b9024923-44e7-4b82-83d5-7e0d199af2bc._msdcs.megabank.local"
+        ],
+        "uSNChanged": [
+            147508
+        ],
+        "uSNCreated": [
+            12293
+        ],
+        "userAccountControl": [
+            532480
+        ],
+        "whenChanged": [
+            "2020-04-01 04:20:43+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-25 13:29:11+00:00"
+        ]
+    },
+    "dn": "CN=RESOLUTE,OU=Domain Controllers,DC=megabank,DC=local"
+}]
