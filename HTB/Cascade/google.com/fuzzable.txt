@@ -1,0 +1,7 @@
+https://google.com/citations?user=
+https://google.com/topicsearch?q=
+https://google.com/?hl=
+https://google.com/citations?view_op=new_profile
+https://google.com/citations?view_op=top_venues
+https://google.com/?pt1=true$
+https://google.com/?gws_rd=ssl$

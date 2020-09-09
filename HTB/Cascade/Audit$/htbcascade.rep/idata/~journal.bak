@@ -1,0 +1,4 @@
+IADD:00000000:/CascAudit.exe
+IDSET:/CascAudit.exe:7f011b06b1786254158905
+IADD:00000001:/CascCrypto.dll
+IDSET:/CascCrypto.dll:7f01187bf2391035667059
