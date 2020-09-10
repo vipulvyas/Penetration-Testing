@@ -1,0 +1,9 @@
+.ab file androis studeo backup file
+
+open or extract .ab file :: ( printf "\x1f\x8b\x08\x00\x00\x00\x00\x00" ; tail -c +25 backup.ab ) |  tar xfvz -
+
+
+shared/0/Pictures/IMAG0004.jpg
+this image contain the page which contain Top secret and for segneture contain flag
+
+HTB{ThisBackupisUnprotected}
