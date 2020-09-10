@@ -1,0 +1,77 @@
+Customers of secure-startup.com have been recieving some very convincing phishing emails, can you figure out why?
+
+=======================================================================================================================
+
+
+site :: secure-startup.com
+
+ref:
+
+https://blog.ironbastion.com.au/email-impersonation-scams-phishing-what-your-staff-can-do/
+http://knowledge.ondmarc.redsift.com/en/articles/1519838-querying-spf-dkim-and-dmarc-records
+
+Record |    Windows Command Line    |         Mac OS Terminal
+-------|----------------------------|-----------------------------------
+SPF    |nslookup  -type=txt domain  |dig txt domain
+-------|----------------------------|----------------------------------- 
+DKIM   |>nslookup                   |dig txt selector._domainkey.domain
+       |>set q=txt                  |
+       |>selector._domainkey.domain |
+-------|----------------------------|----------------------------------- 
+DMARC  |nslookup -type=txt          |dig txt _dmarc.domain
+       | _dmarc.domain              |
+-------|----------------------------|-----------------------------------
+
+
+
+>>nslookup -type=txt secure-startup.com
+	Server:         192.168.43.1
+	Address:        192.168.43.1#53
+
+	Non-authoritative answer:
+	secure-startup.com      text = "v=spf1 a mx ?all - HTB{RIP_SPF_Always_2nd"
+
+	Authoritative answers can be found from:
+
+got :: HTB{RIP_SPF_Always_2nd
+
+>>Querying the DKIM key for secure-startup.com using dig. You will have to know the DKIM selector - "google" in our case - being used in order to query for the DKIM key.
+
+>>dig txt google._domainkey.secure-startup.com
+
+	; <<>> DiG 9.11.16-2-Debian <<>> txt google._domainkey.secure-startup.com
+	;; global options: +cmd
+	;; Got answer:
+	;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 48648
+	;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+	;; OPT PSEUDOSECTION:
+	; EDNS: version: 0, flags:; udp: 512
+	;; QUESTION SECTION:
+	;google._domainkey.secure-startup.com. IN TXT
+
+	;; AUTHORITY SECTION:
+	secure-startup.com.     599     IN      SOA     ns69.domaincontrol.com. dns.jomax.net. 2019032504 28800 7200 604800 600
+
+	;; Query time: 185 msec
+	;; SERVER: 192.168.43.1#53(192.168.43.1)
+	;; WHEN: Sun May 10 08:24:42 EDT 2020
+	;; MSG SIZE  rcvd: 133
+	
+>>Querying the DMARC record for secure-startup.com using nslookup.
+
+>>nslookup -type=txt _dmarc.secure-startup.com 
+Server 92.168.43.1                                                                                                                                                                 
+Address:        192.168.43.1#53                                                                                                                                                              
+                                                                                                                                                                                             
+Non-authoritative answer:
+_dmarc.secure-startup.com       text = "v=DMARC1;p=none;_F1ddl3_2_DMARC}"
+
+Authoritative answers can be found from:
+
+
+got : _F1ddl3_2_DMARC}
+
+
+HTB{RIP_SPF_Always_2nd_F1ddl3_2_DMARC}
+
