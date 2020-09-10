@@ -1,0 +1,96 @@
+Do you remember the eighties? Maybe you can travel to the past to find the flag. 
+
+==========================================================================
+
+>>>> exiftool retro.jpg
+
+Web Statement                   : Photoshop 3.08BIM           .M8DREOF FE007  xÛREVENGE OF THE NERDS II, NERDS IN PARADISE, from left, Larry B. Scott, Andrew Cassese, Timothy Busfield, Robert Carradine, Curtis Armstrong, 1987, TM and Copyright ©20th Century Fox Film Corp. All rights reserved. Courtesy: Everett Collection.  n=20th Century Fox Licensing/Merchandising / Everett Collection  7 20091230   .8x10colmov: 1    1980s movies    1987 movies    Armstrong,curtis    Busfield,timothy    Carradine,robert    Cassese,andrew    Csets    EV-IN   .Eyeglasses    Friends    Geek    Glasses    Hawaiian shirt    Movies    Nerd    Nerds    Pals    Pocket protector   .Scott,larry b    Tropical Print  tICopyright © 20th Century Fox Licensing/Merchandising / Everett Collection  P(©20thCentFox/Courtesy Everett Collection  idREVENGE OF THE NERDS II, NERDS IN PARADISE, from left, Larry B. Scott, Andrew Cassese, Timothy Busfi  ((©20thCentFox/Courtesy Everett Collection  Ñ Not Released  Ö 0  Ü Color  á.Horizontal  à Not approved for WWW  â 5  ä 0  ã 0  ç M8DREOF  é eg8BIM .  8BIM
+
+
+
+
+>>>> steghide info retro.jpg 
+"retro.jpg":
+  format: jpeg
+  capacity: 13.3 KB
+Try to get information about embedded data ? (y/n) y
+Enter passphrase: 
+
+
+hasky@kali ~/D/h/c/s/Retro> stegcracker retro.jpg  /usr/share/wordlists/rockyou.txt
+
+====Not get Anything =======
+
+┌─[hasky@kali]-[~/Desktop/htb/challenge/stego/Retro]
+└──╼ $binwalk retro.jpg 
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+28            0x1C            TIFF image data, big-endian, offset of first image directory: 8
+233685        0x390D5         Zip archive data, at least v2.0 to extract, compressed size: 76, uncompressed size: 87, name: eighties_were_nice.txt
+233813        0x39155         Zip archive data, at least v2.0 to extract, compressed size: 3991, uncompressed size: 549308, name: retro.wav
+238038        0x3A1D6         End of Zip archive, footer length: 22
+
+┌─[hasky@kali]-[~/Desktop/htb/challenge/stego/Retro/_retro.jpg.extracted]
+└──╼ $ls
+390D5.zip  eighties_were_nice.txt  retro.wav
+
+┌─[hasky@kali]-[~/Desktop/htb/challenge/stego/Retro/_retro.jpg.extracted]
+└──╼ $cat eighties_were_nice.txt 
+Retro style is nice! I hope you can find the "flag" as we usually did in the eighties
+
+
+┌─[hasky@kali]-[~/Desktop/htb/challenge/stego/Retro/_retro.jpg.extracted]
+└──╼ $python decode_steg_onwav_lsb.py 
+Sucessfully decoded: 
+
+don't get annyyyyy thing 
+
+than forum said about turgen system search on google download
+
+===================================================================
+Features
+
+    Creation of tapes with ordinary tape recorder
+    Transferring data from PC/Mac to Atari with data recorder and cassette adapter
+    Support for the original standard Atari tape records
+    Support for "turbo" systems popular in Europe
+    Full support for segmented binary load files
+    Highly configurable
+    Comprehensive documentation
+    Extraction of data from tape images
+    Multi-platform support
+
+=====================================================================
+
+ ─[hasky@kali]-[~/Desktop/htb/challenge/stego/turgen_system-8.6.15-bin]
+──╼ $java -jar turgen.jar 
+Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+
+decoder :: Universal Turbo
+navigate byte :: change in period
+decode util EOF
+select verbose message
+
+
+
+
+
+
+
+
+
+
+
+
+┌─[hasky@kali]-[~/Desktop/htb/challenge/stego/Retro/turneg_ouyput]
+└──╼ $strings *.tm
+flag      
+flag      
+"r3tr0-1s-4l1v3"
+"r3tr0-1s-4l1v3"
+
+
+HTB{r3tr0-1s-4l1v3}
+
+

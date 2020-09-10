@@ -1,0 +1,80 @@
+John is practicing his steganography skills but don't let the space kittens affect what you see... There is more than one way to uncover hidden secrets. 
+
+=============================================================================++=======+=====++==++==++==+==++==+==++=
+
+
+got wav file
+
+
+>> binwalk -e meow.wav 
+give 3 7z file but it not decompress by 7za tool so change the way {bcz of :: There is more than one way to uncover}
+
+┌─[✗]─[hasky@kali]-[~/Desktop/htb/challenge/stego/stateless]
+└──╼ $steghide info meow.wav 
+"meow.wav":
+  format: wave audio, PCM encoding
+  capacity: 1.1 MB
+Try to get information about embedded data ? (y/n) y
+Enter passphrase: 
+steghide: could not extract any data with that passphrase!
+
+
+need bruteforce
+
+┌─[✗]─[hasky@kali]-[~/Desktop/htb/challenge/stego/stateless]
+└──╼ stegcracker meow.wav /usr/share/wordlists/rockyou.txt
+	9/14344392 (0.00%) Attempted: skittles
+
+
+got file meow.wav.out
+then text is the output so let remove all unwanted and letter let decide base64 
+which contain base64 so we can convert it to image
+
+
+The key is skittles. With which we obtain a text file that is encoded with base64. Then we get a text in hexadecimal, when we see the first lines of the text (hexadecimal to text) we see that it says something with PNG. This gives us a clue that can be an image.
+
+
+┌─[✗]─[hasky@kali]-[~/Desktop/htb/challenge/stego/stateless]
+└──╼ $cat meow.wav.out | base64 -d
+89504e470d0a1a0a0000000d49484452000002be0000018b080600000021
+
+89 50 4E 47 0D 0A 1A 0A     == PNG
+
+so , convert into PNG
+
+
+┌─[hasky@kali]-[~/Desktop/htb/challenge/stego/stateless]
+└──╼ $cat meow.wav.out | sed '/^s$/d' | base64 -d | xxd -r -p > result.png
+
+┌─[✗]─[hasky@kali]-[~/Desktop/htb/challenge/stego/stateless]
+└──╼ $stegsolve
+
+select file result.png
+
+or use 
+python3 lsb_color.py # this is same as stagsolve 
+
+Red plane 0
+
+
+
+now comair the text braille 
+
+2l9n41s121t
+blindasabat
+
+we got 2 text
+
+
+HTB{2l9n41s121t}
+or
+HTB{blindasabat} # worked
+
+
+
+
+
+
+
+
+
