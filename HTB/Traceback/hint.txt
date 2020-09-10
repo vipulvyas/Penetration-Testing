@@ -1,0 +1,37 @@
+USER HINTS
+----------
+1. basic linux privesc, don't go too far
+2. Enumerate and look carefully for the clue on the box
+3. 
+4. I suggest you get a proper shell, then everything is in front of you in plain sight. A command that you should always be running will get you to user's flag.
+5. How to assign a permission to someone in Linux, Someone is already assigned !
+6. after getting the first shell, no need to write your own script - GTFO will help you
+7. the things you see is also the truth! Try to look for it!
+8. Check what you have privs to run as someone else
+9. see what you can do and drop one liner giving you either flag or access to user and then flag
+10. with a specific language it's possible to write file
+11. basic enumeration and google it
+12. what's the first command you run when you want to know what you can do? Then just basic scripting skillz
+13. i ended up doing this two ways. Didnt need to learn alot about the language
+14. it is hard to learn something new. So some of us have to use common sources for help. The syntax is usually similar to something you know. So if it doesn't work, figure out why, and make it work. You can't plug and play here. Buuuut almost.
+15. See what you can do and please do it.
+
+ROOT HINTS
+----------
+1. remember retired box
+2. basic enum should make you aware of whats going on and google will help for an idea how to trigger it.
+3. Find editable executables, thing when they can be executed, exploit
+4. There was a box with a very similar flaw couple of months ago. Use pspy to get the root's flag (or shell or anything, really). Read carefully the output and focus on permissions.
+5. Catch the automation and inject in certain time !
+6. as it was mentioned several times, pspy...but be careful. it is not CP you really need. Again, no need to write your own script - pentestmonkey is the best solution.
+7. again the answers is in front of you! Remember don't overwrite it!
+8. Check to see what you have write access to
+9. Fun with SSH. Personally, I overthought massively
+10. thanks to
+11. just running enumerate tools, read the line, cat the file.. you get root flag.
+12. Look for whats going on in the system. Examine the processes and google about how they work. Once you understand, its easy
+13. Think about when those are run, and by whom.
+14. I suggest to use pspy and spend 2-3 minutes to understand its output
+15. this was a pain and i went down a rabbit hole. Turns out i was doing it right all the time but not triggering the right way. Be quick and always have a second terminal open
+16. Enumerate. Understand what is going on. You have to be fast or you have to be smart. I chose to be fast.
+17. Thats a little tricky. Analyse everything in the shell files folders everything and then play with time.
