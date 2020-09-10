@@ -1,0 +1,24 @@
+ghidra open
+
+find string
+find HTB{
+
+go to that address
+copy all value 
+
+hex
+
+
+
+hex		 :: Ascii
+
+594234427b425448 :: YB4B{BTH
+3448545f5633525f :: 4HT_V3R_
+455f5354	 :: E_ST
+7d5a		 :: }Z
+
+
+
+reverse all
+
+HTB{B4BY_R3V_TH4TS_EZ}

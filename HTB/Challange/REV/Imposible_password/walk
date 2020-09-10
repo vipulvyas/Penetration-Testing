@@ -1,0 +1,59 @@
+chmod +x im...
+./im..
+*{printany}
+{printanyto20char}
+
+
+
+r2 -A impo..
+
+>pdf@main :: see main function
+>
+
+
+
+s1= user enter
+s2 = SuperSeKretKey
+//// ./im..
+*SuperSeKretKey
+//bypass first
+**
+
+jump bypassed
+
+s1 = user enter
+s2 = return fcn.0040078d
+
+
+
+>s fcn.0040078d   :: go att function address
+>pdf   :: print
+>s main   :: go to main
+>pdf
+
+
+need to bypass jump further so we can execute function fcn.00400978
+method :: 	1) anylise function
+		2) convert into nop
+		
+		
+		
+2) 
+>q     :: for quit from any mode
+>oo+   :: binary in write mode
+>V     :: Visual mode
+>>p    :: change the way p for next way to view
+>>c    :: select hex
+>>i    :: insert mode
+
+
+change jmp to 9090 as nop
+
+and save 
+
+run file
+./impp  
+*Simple..
+[   ]
+**asasas
+HTB{40b949f92b86b18}
