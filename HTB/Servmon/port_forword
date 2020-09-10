@@ -1,0 +1,8 @@
+interface : Ethernet adapter Ethernet0 2
+
+Port forwarding in Windows can be configured using Portproxy mode of the command Netsh. The syntax of this command is as follows:
+
+PS C:\Temp> netsh interface portproxy add v4tov4 listenaddress=10.10.10.184 listenport=8443 connectaddress=10.10.10.14.121 connectport=8088
+
+
+(Get-Command New-PSSession).ParameterSets.Name

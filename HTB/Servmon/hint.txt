@@ -1,0 +1,22 @@
+USER HINTS
+----------
+1. Use what you found with someone else. To find it, you need chains..." />
+2. The file you're looking for might not be where you first think it is.
+3. at first it looks almost like a ctf, enumerate the ports and focus on the "small" ones, you will easily find interesting information to use against another "small" port. The rest is straightforward, look for the first service you see and search on the internet.
+4. Easy, read what's available, then find what you need using pre-existing methods.
+5. just enumerate, enumerate and then enumerate some more. Because enumerating will also put you in the path to root.
+6. maybe what seems to be empty is hiding something. Maybe you can go in other places, just try.
+7. enumeration + CVE = bunch of keys on a keychain
+8. Simple Enum and db-E and a little bit of logic
+9. You can try it manually, but hydra makes you save time, also good methodology to always have all users and passwords in different wordlists..
+
+ROOT HINTS
+----------
+1. You get to use a technique that isn't often an option on Windows machines and the last step in the process you're following from the internet isn't necessary. You can do it a different way.
+2. Slightly more complex, the machine runs another different service, search about it and "try harder". If you receive a 403 at the access is because your network probably shouldn't have access to that service, get help maybe by going through a tunnel. Forget the reload button and wait. Perform the procedure multiple times if you fail. Sooner or later it will work.
+3. You'll probably need tunnel vision and Chromium, skip FireFox!!!
+4. It is easier than what you found online. Just look at a certain file you found. Understand how it works, and then using the gui/webapp will make much more sense.
+5. read the configuration file to bypass the 403 and then follow searchsploit.
+6. read API docs
+7. Enum &amp; db-E
+8. I confirm the blue icon browser is recommended (VIP makes life better too) if you want to access the other app running, 9/10 chance to have a page, compared to 1/20 with the default. To finish, read the documentation and exploit the A*I way to privesc, much better and quicker than the unstable GUI.
