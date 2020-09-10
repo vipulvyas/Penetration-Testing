@@ -1,0 +1,45 @@
+index.html need password in firefox so open and see 
+
+
+id = neville-locker-form
+this id of form
+
+so search and get 
+
+
+=====================================
+
+document.getElementById('neville-locker-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        var passphrase = document.getElementById('passwd').value,
+            encryptedMsg = '4cce4470203e10b395ab1787a22553a5b2503d42a965da813676d929cc16f76cU2FsdGVkX19FvUyhqWoQKHXNLBL64g8acK4UQoP6XZQ/n4MRL3rgQj8TJ/3r8Awtxte2V9s+RLfQHJOHGwYtctqRa/H2BetmxjwGG+LYKUWC8Z6WBoYbecwtATCOuwewnp+VKBzsWLme+3BZyRgKEA==',
+            encryptedHMAC = encryptedMsg.substring(0, 64),
+            encryptedHTML = encryptedMsg.substring(64),
+            decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
+
+        if (decryptedHMAC !== encryptedHMAC) {
+            alert('Bad passphrase!');
+            return;
+        }
+
+        var plainHTML = CryptoJS.AES.decrypt(encryptedHTML, passphrase).toString(CryptoJS.enc.Utf8);
+
+        document.write(plainHTML);
+        document.close();
+    });
+    
+==========================================
+
+binwalk -e socute.jpg
+
+google all text of donotshare
+get pikel.py
+
+python pikel.py
+
+Gu1d0-v4N-R055Um
+
+past this on index.html
+
+HTB{n3v1LL3_Da_burM3s3-pyth0n_sL4y3r}

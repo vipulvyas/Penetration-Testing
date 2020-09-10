@@ -1,0 +1,18 @@
+open pfd in artil document viewer it need password so lets crack
+
+
+pdfcrack crack.pdf -w /usr/share/wordlists/rockyou.txt
+found user-password: jumanji69
+
+
+
+
+
+.-. .---- .--. ... .- -- ..- ...-- .-.. -- ----- .-. ... ...--
+
+i think i see some time ago
+search on google that wierd and i get it is morse code so translate it and get :: R1PSAMU3LM0RS3
+
+
+flag is :: HTB{R1PSAMU3LM0RS3}
+

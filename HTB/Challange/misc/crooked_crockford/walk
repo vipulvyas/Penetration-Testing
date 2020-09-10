@@ -1,0 +1,40 @@
+gcc script.c -o script
+
+./script r,,,,rr,rr,r,rr,r,,,,,rr,rr,r,r,,r,r,rr,,,,rr,,rr,rrr,,,r,,,r,,r,rr,,,r,r,,rrr,r,,,,r,,,,,rr,r,rr,r,,r,rrr,,rrr,r,,,r,,r,,rrr,r,,r,,,,rr,rr,r,,,,,rr,r,rrrr,,r,rrr,,r,rr
+
+
+1000011 : C
+0110101 : 5
+1010000 : P
+0110110 : 6
+1010010 : R
+1011000 : X
+0110011 : 3             
+0111000 : 8
+1000100 : D
+1011000 : X
+1010011 : S
+1010000 : P
+1000001 : A
+1010110 : V
+1001011 : K
+1001110 : N
+1000100 : D
+1001110 : N
+1001000 : H
+0110110 : 6
+1000001 : A
+1010111 : W
+1001011 : K
+1001011 : K
+
+
+binary to ascii convert
+
+C5P6RX38DXSPAVKNDNH6AWKK
+
+https://cryptii.com/pipes/crockford-base32
+
+allthosenumbers
+
+HTB{allthosenumbers}
