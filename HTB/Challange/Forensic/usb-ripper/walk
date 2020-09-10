@@ -1,0 +1,40 @@
+cat syslog | grep Manufacturer | awk '{print $11}' >> sys_manfec.txt
+
+all manufecture check in auth.json
+
+
+
+or 
+
+usbrip
+
+
+┌─[✗]─[hasky@kali]-[/var/log]
+└──╼ $sudo mv syslog new_sys
+
+
+┌─[hasky@kali]-[~/Desktop/htb/challenge/Forensic/ USB Ripper/usb-ripper]
+└──╼ $sudo usbrip events violations auth.json                            
+
+┌─[hasky@kali]-[~/Desktop/htb/challenge/Forensic/ USB Ripper/usb-ripper]
+└──╼ $sudo /home/hasky/.local/bin/usbrip events violations auth.json 
+
+or
+
+┌─[hasky@kali]-[~/Desktop/htb/challenge/Forensic/ USB Ripper/usb-ripper]
+└──╼ $sudo /home/hasky/.local/bin/usbrip events violations auth.json --file ./syslog
+
++USB-Violation-Events-+------+------+------+---------------------------+--------------------------+----------------------------------+------+---------------------+
+|           Connected | Host |  VID |  PID |                   Product |             Manufacturer |                    Serial Number | Port |        Disconnected |
++---------------------+------+------+------+---------------------------+--------------------------+----------------------------------+------+---------------------+
+| ????-08-03 •••••••• | −−−− | −−−− | −−−− | −−−−−−−−−−−−−−−−−−−−−−−−− | −−−−−−−−−−−−−−−−−−−−−−−− | −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− | −−−− | −−−−−−−−−−−−−−−−−−− |
+| ????-08-03 07:18:01 | kali | 3993 | 9324 | 1F8ADAEE73D993944FC7C7783 | 884CCC9A3DF08F49C621373E | 71DF5A33EFFDEA5B1882C9FBDC1240C6 |  1-1 | ????-08-03 07:18:10 |
++---------------------+------+------+------+---------------------------+--------------------------+----------------------------------+------+---------------------+
+[*] Shut down at 2020-05-11 08:58:03
+
+
+google :: 71DF5A33EFFDEA5B1882C9FBDC1240C6   :: mychemicalromance
+
+flag :: HTB{mychemicalromance}
+
+                     

@@ -1,0 +1,50 @@
+xxd password
+
+
+copy all hex in file
+
+xxd password | awk -F: '{print $2}' | awk -F "  " '{print $1}'
+
+get_hex
+
+now invert hex
+1=e 2=d ...
+
+
+python3 convert.py > HEX
+
+
+XOR
+
+17 => d7
+1c => 9c
+1b => db
+15 => 95
+05 => f5
+03 => f3
+2a => aa
+0c => cc
+09 => c9
+0c => cc 
+07 => f7
+2a => aa 
+05 => e5
+08 => c8
+00 => fe
+17 => d7
+1c => 9c
+08 => c8
+00 => fe
+24 => a4
+01 => 81
+1b => db
+
+
+hex to file converter
+
+https://tomeko.net/online_tools/hex_to_file.php?lang=en
+
+password.txt
+
+HTB{27AjFDkqi1wJ}
+15 => 95

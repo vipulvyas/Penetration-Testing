@@ -1,0 +1,30 @@
+┌─[✗]─[hasky@kali]-[~/Desktop/htb/challenge/Forensic/Illumination.JS]
+└──╼ $echo UmVkIEhlcnJpbmcsIHJlYWQgdGhlIEpTIGNhcmVmdWxseQ== | base64 -d
+Red Herring, read the JS carefully
+
+
+┌─[hasky@kali]-[~/Desktop/htb/challenge/Forensic/Illumination.JS/.git]
+└──╼ $git log
+
+┌─[hasky@kali]-[~/Desktop/htb/challenge/Forensic/Illumination.JS/.git]
+└──╼ $git show
+
+commit 47241a47f62ada864ec74bd6dedc4d33f4374699
+Author: SherlockSec <dan@lights.htb>
+Date:   Fri May 31 12:00:54 2019 +0100
+
+    Thanks to contributors, I removed the unique token as it was a security risk. Thanks for reporting responsibly!
+
+
+
+┌─[hasky@kali]-[~/Desktop/htb/challenge/Forensic/Illumination.JS/.git]
+└──╼ $git show 47241a47f62ada864ec74bd6dedc4d33f4374699
+
+ "token": "SFRCe3YzcnNpMG5fYzBudHIwbF9hbV9JX3JpZ2h0P30=",
++       "token": "Replace me with token when in use! Security Risk!",
+
+
+┌─[hasky@kali]-[~/Desktop/htb/challenge/Forensic/Illumination.JS/.git]
+└──╼ $echo SFRCe3YzcnNpMG5fYzBudHIwbF9hbV9JX3JpZ2h0P30= | base64 -d
+HTB{v3rsi0n_c0ntr0l_am_I_right?}
+        
